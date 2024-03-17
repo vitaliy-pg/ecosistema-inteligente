@@ -43,3 +43,5 @@ class Ecosistema {
     public Ecosistema() {
         this.especies = new ArrayList<>();
     }
+    public void agregarEspecie(Especie especie) {
+        this.especies.add(especie);

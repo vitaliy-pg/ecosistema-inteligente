@@ -72,7 +72,10 @@ class RegistroActividades {
     public void registrarSimulacion(String nombreSimulacion, String configuracion) {
         simulaciones.put(nombreSimulacion, new Simulacion(nombreSimulacion, configuracion));
     }
-
+    public Simulacion obtenerSimulacion(String nombreSimulacion) {
+        return simulaciones.get(nombreSimulacion);
+    }
+}
     class InterfazUsuario {
     private Autenticacion autenticacion;
     private RegistroActividades registroActividades;

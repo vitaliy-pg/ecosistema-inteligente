@@ -55,3 +55,10 @@ class Ecosistema {
             especie.eventoAleatorio();
         }
     }
+    public int calcularPoblacionTotal() {
+        int poblacionTotal = 0;
+        for (Especie especie : especies) {
+            poblacionTotal += especie.getPoblacion();
+        }
+        return poblacionTotal;
+    }

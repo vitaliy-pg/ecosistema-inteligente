@@ -57,3 +57,10 @@ class Ambiente {
     public void agregarOrganismo(Organismo organismo) {
         this.organismos.add(organismo);
     }
+    public void pasoDelTiempo() {
+        // Simular interacciones entre los organismos y el ambiente
+        for (Organismo organismo : organismos) {
+            organismo.interactuar(this);
+            organismo.envejecer();
+        }
+    }

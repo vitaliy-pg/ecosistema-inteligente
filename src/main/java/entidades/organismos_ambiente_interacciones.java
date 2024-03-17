@@ -64,3 +64,10 @@ class Ambiente {
             organismo.envejecer();
         }
     }
+    public void simularPredacion(Organismo depredador, Organismo presa) {
+        // Simulación básica: el depredador reduce la salud de la presa
+        presa.salud -= 20;
+        if (presa.salud <= 0) {
+            organismos.remove(presa); // La presa muere
+        }
+    }

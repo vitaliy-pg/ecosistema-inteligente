@@ -42,3 +42,4 @@ class ResolucionProblemas {
         // Implementación para evaluar estrategias de conservación
     }
 }
+class VisualizacionDatos {

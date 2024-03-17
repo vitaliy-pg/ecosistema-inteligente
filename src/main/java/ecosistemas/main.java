@@ -1,8 +1,5 @@
 package ecosistemas;
-//ahora hare el main lo mas jodido de todo
-import ecosistemas.gestion_simulaciones.InterfazUsuario;
-import ecosistemas.simulador_poblaciones.Ecosistema;
-
+//ahora hare el main lo mas jodido de 
 
 import java.util.Scanner;
 

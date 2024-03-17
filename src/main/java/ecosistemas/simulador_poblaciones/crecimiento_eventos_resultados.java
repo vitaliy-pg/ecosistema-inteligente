@@ -37,3 +37,9 @@ class Especie {
         }
     }
 }
+class Ecosistema {
+    private ArrayList<Especie> especies;
+
+    public Ecosistema() {
+        this.especies = new ArrayList<>();
+    }

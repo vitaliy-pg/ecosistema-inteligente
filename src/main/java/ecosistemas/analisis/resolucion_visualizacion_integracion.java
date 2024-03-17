@@ -27,3 +27,7 @@ class Simulacion {
     public void agregarResultado(String nombreResultado, double valor) {
         resultados.put(nombreResultado, valor);
     }
+    public double obtenerResultado(String nombreResultado) {
+        return resultados.getOrDefault(nombreResultado, 0.0);
+    }
+}

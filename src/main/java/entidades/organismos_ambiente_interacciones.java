@@ -89,3 +89,8 @@ class Ambiente {
             organismos.remove(organismo2);
         }
     }
+    public void simularPolinizacion(Organismo planta, Organismo polinizador) {
+        // Simulación básica: el polinizador ayuda en la polinización de la planta
+        // Aquí podrías implementar una lógica más elaborada para la polinización
+    }
+}

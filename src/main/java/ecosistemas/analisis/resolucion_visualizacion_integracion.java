@@ -47,7 +47,10 @@ class VisualizacionDatos {
         // Implementación para visualizar datos de la simulación
     }
 }
-}
+
 class IntegracionNuevasFunciones {
+    public void introducirNuevoModelo() {
+        // Implementación para introducir nuevos modelos
+    }
 
 }

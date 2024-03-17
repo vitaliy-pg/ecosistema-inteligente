@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="get configuraciones" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase integracion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,87 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="4759000" />
-    </task>
-    <task id="LOCAL-00003" summary="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main">
-      <option name="closed" value="true" />
-      <created>1710675730462</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710675730462</updated>
-    </task>
-    <task id="LOCAL-00004" summary="creo la carpeta del primer modulo">
-      <option name="closed" value="true" />
-      <created>1710675954550</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1710675954550</updated>
-    </task>
-    <task id="LOCAL-00005" summary="importo utilidades de java">
-      <option name="closed" value="true" />
-      <created>1710676561486</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676561486</updated>
-    </task>
-    <task id="LOCAL-00006" summary="creo la clase organismo">
-      <option name="closed" value="true" />
-      <created>1710676621548</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676621548</updated>
-    </task>
-    <task id="LOCAL-00007" summary="creo metodo de simulacion de paso de tiempo">
-      <option name="closed" value="true" />
-      <created>1710676673083</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676673083</updated>
-    </task>
-    <task id="LOCAL-00008" summary="creo metodo de simulacion de interacciones naturales">
-      <option name="closed" value="true" />
-      <created>1710676712245</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676712245</updated>
-    </task>
-    <task id="LOCAL-00009" summary="creo clase para las plantas">
-      <option name="closed" value="true" />
-      <created>1710676779590</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676779590</updated>
-    </task>
-    <task id="LOCAL-00010" summary="metodo para que las plantas hagan la fotosintesis">
-      <option name="closed" value="true" />
-      <created>1710676812798</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676812798</updated>
-    </task>
-    <task id="LOCAL-00011" summary="clase para animales">
-      <option name="closed" value="true" />
-      <created>1710676860984</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676860984</updated>
-    </task>
-    <task id="LOCAL-00012" summary="motodo para que los animales puedan moverse">
-      <option name="closed" value="true" />
-      <created>1710676897246</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676897246</updated>
+      <workItem from="1710675415469" duration="5064000" />
     </task>
     <task id="LOCAL-00013" summary=" creo clase ambiente">
       <option name="closed" value="true" />
@@ -452,23 +372,93 @@
       <option name="project" value="LOCAL" />
       <updated>1710680246727</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="set configuarciones">
+      <option name="closed" value="true" />
+      <created>1710680267104</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680267104</updated>
+    </task>
+    <task id="LOCAL-00053" summary="metodo para agregar resultados">
+      <option name="closed" value="true" />
+      <created>1710680292881</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680292881</updated>
+    </task>
+    <task id="LOCAL-00054" summary="metodo para obtener resultados de la simulacion">
+      <option name="closed" value="true" />
+      <created>1710680332927</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680332927</updated>
+    </task>
+    <task id="LOCAL-00055" summary="creo clase resolucion de problemas">
+      <option name="closed" value="true" />
+      <created>1710680365344</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680365344</updated>
+    </task>
+    <task id="LOCAL-00056" summary="metodo para buscar equilibrio ecologico">
+      <option name="closed" value="true" />
+      <created>1710680391554</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680391554</updated>
+    </task>
+    <task id="LOCAL-00057" summary="metodo para buscar especies en peligro">
+      <option name="closed" value="true" />
+      <created>1710680425631</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680425631</updated>
+    </task>
+    <task id="LOCAL-00058" summary="metodo para evaluar estrategias">
+      <option name="closed" value="true" />
+      <created>1710680453449</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680453449</updated>
+    </task>
+    <task id="LOCAL-00059" summary="creo la clase visualizacion">
+      <option name="closed" value="true" />
+      <created>1710680482547</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680482547</updated>
+    </task>
+    <task id="LOCAL-00060" summary="metodo para ver los datos">
+      <option name="closed" value="true" />
+      <created>1710680519771</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680519771</updated>
+    </task>
+    <task id="LOCAL-00061" summary="creo la clase integracion">
+      <option name="closed" value="true" />
+      <created>1710680554530</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680554530</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creo la clase ecosistema" />
-    <MESSAGE value="metodo para agregar una especie" />
-    <MESSAGE value="metodo para simular el paso de los años" />
-    <MESSAGE value="metodo para calcular la poblacion total" />
-    <MESSAGE value="metodo para calcular la poblacion total de uan especi en especifico" />
-    <MESSAGE value="creo mas metodos aleatorios" />
-    <MESSAGE value="importo utilidades de java" />
-    <MESSAGE value="creo la clase usuario" />
-    <MESSAGE value="metodo para verificar al contraseña" />
-    <MESSAGE value="clase para la Autenticacion" />
     <MESSAGE value="metodo para registrar nuevos usuarios" />
     <MESSAGE value="añado setter y getters a la clase simulacion" />
     <MESSAGE value="creo la clase interfaz" />
@@ -484,6 +474,16 @@
     <MESSAGE value="metodo get nombre" />
     <MESSAGE value="set nombre" />
     <MESSAGE value="get configuraciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="get configuraciones" />
+    <MESSAGE value="set configuarciones" />
+    <MESSAGE value="metodo para agregar resultados" />
+    <MESSAGE value="metodo para obtener resultados de la simulacion" />
+    <MESSAGE value="creo clase resolucion de problemas" />
+    <MESSAGE value="metodo para buscar equilibrio ecologico" />
+    <MESSAGE value="metodo para buscar especies en peligro" />
+    <MESSAGE value="metodo para evaluar estrategias" />
+    <MESSAGE value="creo la clase visualizacion" />
+    <MESSAGE value="metodo para ver los datos" />
+    <MESSAGE value="creo la clase integracion" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo la clase integracion" />
   </component>
 </project>

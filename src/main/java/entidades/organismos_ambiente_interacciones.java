@@ -71,3 +71,21 @@ class Ambiente {
             organismos.remove(presa); // La presa muere
         }
     }
+    public void simularCompetenciaRecursos(Organismo organismo1, Organismo organismo2) {
+        // Simulación básica: ambos organismos compiten por los recursos
+        Random random = new Random();
+        int probabilidad = random.nextInt(100);
+        if (probabilidad < 50) { // Por ejemplo, 50% de probabilidad de que uno de los organismos pierda salud
+            organismo1.salud -= 10;
+        } else {
+            organismo2.salud -= 10;
+        }
+
+        // Si algún organismo se queda sin salud, muere
+        if (organismo1.salud <= 0) {
+            organismos.remove(organismo1);
+        }
+        if (organismo2.salud <= 0) {
+            organismos.remove(organismo2);
+        }
+    }

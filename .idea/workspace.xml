@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo metodo de simulacion de interacciones naturales" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo simulacion de la predacciion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="1306000" />
+      <workItem from="1710675415469" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -121,7 +121,71 @@
       <option name="project" value="LOCAL" />
       <updated>1710676712245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="creo clase para las plantas">
+      <option name="closed" value="true" />
+      <created>1710676779590</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676779590</updated>
+    </task>
+    <task id="LOCAL-00010" summary="metodo para que las plantas hagan la fotosintesis">
+      <option name="closed" value="true" />
+      <created>1710676812798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676812798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="clase para animales">
+      <option name="closed" value="true" />
+      <created>1710676860984</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676860984</updated>
+    </task>
+    <task id="LOCAL-00012" summary="motodo para que los animales puedan moverse">
+      <option name="closed" value="true" />
+      <created>1710676897246</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676897246</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" creo clase ambiente">
+      <option name="closed" value="true" />
+      <created>1710676937751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676937751</updated>
+    </task>
+    <task id="LOCAL-00014" summary="metodo para agregar organismos al ambiente">
+      <option name="closed" value="true" />
+      <created>1710676969033</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710676969033</updated>
+    </task>
+    <task id="LOCAL-00015" summary="metodo simulacion del paso del tiempo">
+      <option name="closed" value="true" />
+      <created>1710677006976</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677006976</updated>
+    </task>
+    <task id="LOCAL-00016" summary="metodo simulacion de la predacciion">
+      <option name="closed" value="true" />
+      <created>1710677038223</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677038223</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +200,14 @@
     <MESSAGE value="creo la clase organismo" />
     <MESSAGE value="creo metodo de simulacion de paso de tiempo" />
     <MESSAGE value="creo metodo de simulacion de interacciones naturales" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo metodo de simulacion de interacciones naturales" />
+    <MESSAGE value="creo clase para las plantas" />
+    <MESSAGE value="metodo para que las plantas hagan la fotosintesis" />
+    <MESSAGE value="clase para animales" />
+    <MESSAGE value="motodo para que los animales puedan moverse" />
+    <MESSAGE value=" creo clase ambiente" />
+    <MESSAGE value="metodo para agregar organismos al ambiente" />
+    <MESSAGE value="metodo simulacion del paso del tiempo" />
+    <MESSAGE value="metodo simulacion de la predacciion" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo simulacion de la predacciion" />
   </component>
 </project>

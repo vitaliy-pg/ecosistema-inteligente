@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase especie" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para calcular la poblacion total de uan especi en especifico" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="2229000" />
+      <workItem from="1710675415469" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -217,16 +217,85 @@
       <option name="project" value="LOCAL" />
       <updated>1710677665004</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="meotodo de simulacion de crecimiento de la poblacion">
+      <option name="closed" value="true" />
+      <created>1710677693048</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677693048</updated>
+    </task>
+    <task id="LOCAL-00022" summary="meotodo de simulacion de reproduccion de  la poblacion">
+      <option name="closed" value="true" />
+      <created>1710677724067</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677724067</updated>
+    </task>
+    <task id="LOCAL-00023" summary="meotodo de simulacion de muerte de la poblacion">
+      <option name="closed" value="true" />
+      <created>1710677753503</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677753503</updated>
+    </task>
+    <task id="LOCAL-00024" summary="meotodo de simulacion de eventos qeu afectan a la poblacion">
+      <option name="closed" value="true" />
+      <created>1710677776135</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677776135</updated>
+    </task>
+    <task id="LOCAL-00025" summary="creo la clase ecosistema">
+      <option name="closed" value="true" />
+      <created>1710677815650</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677815650</updated>
+    </task>
+    <task id="LOCAL-00026" summary="metodo para agregar una especie">
+      <option name="closed" value="true" />
+      <created>1710677846336</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677846336</updated>
+    </task>
+    <task id="LOCAL-00027" summary="metodo para simular el paso de los años">
+      <option name="closed" value="true" />
+      <created>1710677874807</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677874807</updated>
+    </task>
+    <task id="LOCAL-00028" summary="metodo para calcular la poblacion total">
+      <option name="closed" value="true" />
+      <created>1710677907663</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677907663</updated>
+    </task>
+    <task id="LOCAL-00029" summary="metodo para calcular la poblacion total de uan especi en especifico">
+      <option name="closed" value="true" />
+      <created>1710677947086</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677947086</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="voy a quitar algunos archivos y algunas carpetas" />
-    <MESSAGE value="he eliminado el main y una carpeta" />
-    <MESSAGE value="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main" />
     <MESSAGE value="creo la carpeta del primer modulo" />
     <MESSAGE value="creo la clase organismo" />
     <MESSAGE value="creo metodo de simulacion de paso de tiempo" />
@@ -243,6 +312,15 @@
     <MESSAGE value="metodo simulacion de la polinizacion" />
     <MESSAGE value="importo utilidades de java" />
     <MESSAGE value="creo la clase especie" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo la clase especie" />
+    <MESSAGE value="meotodo de simulacion de crecimiento de la poblacion" />
+    <MESSAGE value="meotodo de simulacion de reproduccion de  la poblacion" />
+    <MESSAGE value="meotodo de simulacion de muerte de la poblacion" />
+    <MESSAGE value="meotodo de simulacion de eventos qeu afectan a la poblacion" />
+    <MESSAGE value="creo la clase ecosistema" />
+    <MESSAGE value="metodo para agregar una especie" />
+    <MESSAGE value="metodo para simular el paso de los años" />
+    <MESSAGE value="metodo para calcular la poblacion total" />
+    <MESSAGE value="metodo para calcular la poblacion total de uan especi en especifico" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo para calcular la poblacion total de uan especi en especifico" />
   </component>
 </project>

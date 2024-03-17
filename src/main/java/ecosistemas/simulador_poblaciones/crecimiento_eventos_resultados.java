@@ -30,13 +30,20 @@ class Especie {
         this.poblacion -= this.poblacion * 0.02;
     }
     public void eventoAleatorio() {
-        // Suponemos un evento que reduce la población en un 20%
         Random random = new Random();
-        if (random.nextInt(100) < 20) {
-            this.poblacion -= this.poblacion * 0.2;
+        int probabilidad = random.nextInt(100);
+
+        // Simulamos diferentes eventos aleatorios con diferentes probabilidades
+        if (probabilidad < 10) { // 10% de probabilidad de desastre natural
+            this.poblacion -= this.poblacion * 0.3; // Reducción del 30% de la población
+        } else if (probabilidad < 30) { // 20% de probabilidad de enfermedad
+            this.poblacion -= this.poblacion * 0.1; // Reducción del 10% de la población
+        } else if (probabilidad < 50) { // 20% de probabilidad de cambio climático
+            this.poblacion -= this.poblacion * 0.2; // Reducción del 20% de la población
         }
     }
 }
+
 class Ecosistema {
     private ArrayList<Especie> especies;
 

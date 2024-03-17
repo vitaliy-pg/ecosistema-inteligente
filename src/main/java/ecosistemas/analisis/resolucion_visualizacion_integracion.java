@@ -24,3 +24,6 @@ class Simulacion {
     public void setConfiguracion(String configuracion) {
         this.configuracion = configuracion;
     }
+    public void agregarResultado(String nombreResultado, double valor) {
+        resultados.put(nombreResultado, valor);
+    }

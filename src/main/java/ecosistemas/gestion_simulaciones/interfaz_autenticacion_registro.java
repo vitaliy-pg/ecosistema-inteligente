@@ -14,3 +14,7 @@ class Usuario {
     public String getNombreUsuario() {
         return nombreUsuario;
     }
+    public boolean verificarContrasena(String contrasena) {
+        return this.contrasena.equals(contrasena);
+    }
+}

@@ -12,3 +12,6 @@ class Simulacion {
         this.configuracion = configuracion;
         this.resultados = new HashMap<>();
     }
+    public String getNombre() {
+        return nombre;
+    }

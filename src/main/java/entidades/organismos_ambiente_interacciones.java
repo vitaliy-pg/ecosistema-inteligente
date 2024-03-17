@@ -42,3 +42,15 @@ class Animal extends Organismo {
         // Aquí podrías implementar la lógica específica para los animales
     }
 }
+class Ambiente {
+    private String clima;
+    private String terreno;
+    private int recursosDisponibles;
+    private ArrayList<Organismo> organismos;
+
+    public Ambiente(String clima, String terreno, int recursos) {
+        this.clima = clima;
+        this.terreno = terreno;
+        this.recursosDisponibles = recursos;
+        this.organismos = new ArrayList<>();
+    }

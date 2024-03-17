@@ -18,3 +18,9 @@ class Usuario {
         return this.contrasena.equals(contrasena);
     }
 }
+class Autenticacion {
+    private Map<String, Usuario> usuarios;
+
+    public Autenticacion() {
+        this.usuarios = new HashMap<>();
+    }

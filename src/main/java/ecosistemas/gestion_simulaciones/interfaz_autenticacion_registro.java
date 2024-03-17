@@ -2,6 +2,7 @@ package ecosistemas.gestion_simulaciones;
 import java.util.HashMap;
 import java.util.Map;
 
+
 class Usuario {
     private String nombreUsuario;
     private String contrasena;
@@ -103,5 +104,11 @@ class InterfazUsuario {
 
     public void crearOrganismo(String nombreOrganismo) {
         System.out.println("Se ha creado el organismo " + nombreOrganismo);
+    }
+
+    public void visualizarResultados ( String nombreSimulacion ) {
+        Simulacion simulacion = registroActividades.obtenerSimulacion(nombreSimulacion);
+        System.out.println("Visualizando resultados de la simulación " + simulacion.getNombre());
+        System.out.println("Configuración: " + simulacion.getConfiguracion());
     }
 }

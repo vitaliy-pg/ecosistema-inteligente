@@ -74,3 +74,6 @@ class InterfazUsuario {
     public void registrarUsuario(String nombreUsuario, String contrasena) {
         autenticacion.registrarUsuario(nombreUsuario, contrasena);
     }
+    public boolean autenticarUsuario(String nombreUsuario, String contrasena) {
+        return autenticacion.autenticarUsuario(nombreUsuario, contrasena);
+    }

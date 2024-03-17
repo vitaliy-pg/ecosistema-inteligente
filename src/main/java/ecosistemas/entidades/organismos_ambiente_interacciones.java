@@ -1,4 +1,4 @@
-package entidades;
+package ecosistemas.entidades;
 import java.util.ArrayList;
 import java.util.Random;
 abstract class Organismo {

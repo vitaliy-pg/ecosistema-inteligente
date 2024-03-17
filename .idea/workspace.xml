@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo simulacion de la predacciion" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo simulacion de la polinizacion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="1612000" />
+      <workItem from="1710675415469" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -185,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710677038223</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="metodo simulacion de competencai de recursos">
+      <option name="closed" value="true" />
+      <created>1710677074219</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677074219</updated>
+    </task>
+    <task id="LOCAL-00018" summary="metodo simulacion de la polinizacion">
+      <option name="closed" value="true" />
+      <created>1710677100014</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677100014</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +224,8 @@
     <MESSAGE value="metodo para agregar organismos al ambiente" />
     <MESSAGE value="metodo simulacion del paso del tiempo" />
     <MESSAGE value="metodo simulacion de la predacciion" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo simulacion de la predacciion" />
+    <MESSAGE value="metodo simulacion de competencai de recursos" />
+    <MESSAGE value="metodo simulacion de la polinizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo simulacion de la polinizacion" />
   </component>
 </project>

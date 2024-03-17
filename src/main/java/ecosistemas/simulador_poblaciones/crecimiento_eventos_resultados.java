@@ -62,3 +62,12 @@ class Ecosistema {
         }
         return poblacionTotal;
     }
+    public int calcularPoblacionEspecie(String nombreEspecie) {
+        for (Especie especie : especies) {
+            if (especie.getNombre().equals(nombreEspecie)) {
+                return especie.getPoblacion();
+            }
+        }
+        return 0; // Si no se encuentra la especie, se retorna 0
+    }
+}

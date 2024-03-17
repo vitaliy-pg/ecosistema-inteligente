@@ -32,3 +32,8 @@ class Simulacion {
     }
 }
 class ResolucionProblemas {
+    public void buscarEquilibrioEcologico() {
+        // Implementación para buscar equilibrios ecológicos
+    }
+
+}

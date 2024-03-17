@@ -77,3 +77,6 @@ class InterfazUsuario {
     public boolean autenticarUsuario(String nombreUsuario, String contrasena) {
         return autenticacion.autenticarUsuario(nombreUsuario, contrasena);
     }
+    public void iniciarSimulacion(String nombreSimulacion, String configuracion) {
+        registroActividades.registrarSimulacion(nombreSimulacion, configuracion);
+    }

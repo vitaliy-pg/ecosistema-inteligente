@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la carpeta del primer modulo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="320000" />
+      <workItem from="1710675415469" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -73,7 +76,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710675730462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creo la carpeta del primer modulo">
+      <option name="closed" value="true" />
+      <created>1710675954550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710675954550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +94,7 @@
     <MESSAGE value="voy a quitar algunos archivos y algunas carpetas" />
     <MESSAGE value="he eliminado el main y una carpeta" />
     <MESSAGE value="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main" />
+    <MESSAGE value="creo la carpeta del primer modulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo la carpeta del primer modulo" />
   </component>
 </project>

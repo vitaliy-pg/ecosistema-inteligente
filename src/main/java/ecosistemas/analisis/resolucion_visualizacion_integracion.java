@@ -48,3 +48,6 @@ class VisualizacionDatos {
     }
 }
 }
+class IntegracionNuevasFunciones {
+
+}

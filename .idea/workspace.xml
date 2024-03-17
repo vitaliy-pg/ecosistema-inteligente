@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para iniciar una simulacion anterior">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" afterDir="false" />
-    </list>
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para obtener una simulacion registrada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="3970000" />
+      <workItem from="1710675415469" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -403,16 +401,37 @@
       <option name="project" value="LOCAL" />
       <updated>1710679438281</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="creo la clase registro de actividades que se me habia olvidado">
+      <option name="closed" value="true" />
+      <created>1710679485408</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679485408</updated>
+    </task>
+    <task id="LOCAL-00045" summary="metodo para crear una nueva simulacion">
+      <option name="closed" value="true" />
+      <created>1710679517442</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679517442</updated>
+    </task>
+    <task id="LOCAL-00046" summary="metodo para obtener una simulacion registrada">
+      <option name="closed" value="true" />
+      <created>1710679546992</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679546993</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo simulacion de competencai de recursos" />
-    <MESSAGE value="metodo simulacion de la polinizacion" />
-    <MESSAGE value="creo la clase especie" />
     <MESSAGE value="meotodo de simulacion de crecimiento de la poblacion" />
     <MESSAGE value="meotodo de simulacion de reproduccion de  la poblacion" />
     <MESSAGE value="meotodo de simulacion de muerte de la poblacion" />
@@ -435,6 +454,9 @@
     <MESSAGE value="metodo para verificar usuarios" />
     <MESSAGE value="metodo para iniciar una nueva simulacion" />
     <MESSAGE value="metodo para iniciar una simulacion anterior" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo para iniciar una simulacion anterior" />
+    <MESSAGE value="creo la clase registro de actividades que se me habia olvidado" />
+    <MESSAGE value="metodo para crear una nueva simulacion" />
+    <MESSAGE value="metodo para obtener una simulacion registrada" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo para obtener una simulacion registrada" />
   </component>
 </project>

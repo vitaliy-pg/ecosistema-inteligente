@@ -45,3 +45,13 @@ class Ecosistema {
     }
     public void agregarEspecie(Especie especie) {
         this.especies.add(especie);
+        }
+
+    public void pasoDeAnio() {
+        // Simulamos el crecimiento y la reproducción de cada especie
+        for (Especie especie : especies) {
+            especie.crecer();
+            especie.reproducirse();
+            especie.eventoAleatorio();
+        }
+    }

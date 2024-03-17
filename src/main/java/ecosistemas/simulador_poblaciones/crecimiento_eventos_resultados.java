@@ -1,7 +1,7 @@
 package ecosistemas.simulador_poblaciones;
 import java.util.ArrayList;
 import java.util.Random;
-class Especie {
+public class Especie {
     private String nombre;
     private int poblacion;
 
@@ -44,7 +44,7 @@ class Especie {
     }
 }
 
-class Ecosistema {
+public class Ecosistema {
     private ArrayList<Especie> especies;
 
     public Ecosistema() {

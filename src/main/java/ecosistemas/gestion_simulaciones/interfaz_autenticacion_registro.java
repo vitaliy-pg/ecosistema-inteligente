@@ -77,7 +77,7 @@ class RegistroActividades {
         return simulaciones.get(nombreSimulacion);
     }
 }
-class InterfazUsuario {
+public class InterfazUsuario {
     private Autenticacion autenticacion;
     private RegistroActividades registroActividades;
 

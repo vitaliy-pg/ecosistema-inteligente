@@ -21,3 +21,7 @@ class Especie {
         // Suponemos un crecimiento constante del 5% cada año
         this.poblacion += this.poblacion * 0.05;
     }
+    public void reproducirse() {
+        // Cada individuo puede reproducirse y tener una descendencia
+        this.poblacion += this.poblacion * 0.1;
+    }

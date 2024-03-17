@@ -80,3 +80,7 @@ class InterfazUsuario {
     public void iniciarSimulacion(String nombreSimulacion, String configuracion) {
         registroActividades.registrarSimulacion(nombreSimulacion, configuracion);
     }
+    public Simulacion obtenerSimulacion(String nombreSimulacion) {
+        return registroActividades.obtenerSimulacion(nombreSimulacion);
+    }
+}

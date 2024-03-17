@@ -71,3 +71,6 @@ class InterfazUsuario {
         this.autenticacion = new Autenticacion();
         this.registroActividades = new RegistroActividades();
     }
+    public void registrarUsuario(String nombreUsuario, String contrasena) {
+        autenticacion.registrarUsuario(nombreUsuario, contrasena);
+    }

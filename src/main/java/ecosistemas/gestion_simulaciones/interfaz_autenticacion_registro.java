@@ -43,11 +43,6 @@ class Simulacion {
 
     // Getters y setters
     // ...
-    public Simulacion(String nombre, String configuracion) {
-        this.nombre = nombre;
-        this.configuracion = configuracion;
-    }
-
     // Getter para el nombre de la simulación
     public String getNombre() {
         return nombre;
@@ -68,3 +63,11 @@ class Simulacion {
         this.configuracion = configuracion;
     }
 }
+class InterfazUsuario {
+    private Autenticacion autenticacion;
+    private RegistroActividades registroActividades;
+
+    public InterfazUsuario() {
+        this.autenticacion = new Autenticacion();
+        this.registroActividades = new RegistroActividades();
+    }

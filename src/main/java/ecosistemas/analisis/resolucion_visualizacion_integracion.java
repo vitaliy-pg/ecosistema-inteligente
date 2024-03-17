@@ -21,3 +21,6 @@ class Simulacion {
     public String getConfiguracion() {
         return configuracion;
     }
+    public void setConfiguracion(String configuracion) {
+        this.configuracion = configuracion;
+    }

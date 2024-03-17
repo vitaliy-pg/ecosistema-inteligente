@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para obtener una simulacion registrada" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="get configuraciones" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,23 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="4457000" />
-    </task>
-    <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
-      <option name="closed" value="true" />
-      <created>1710675550729</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710675550729</updated>
-    </task>
-    <task id="LOCAL-00002" summary="he eliminado el main y una carpeta">
-      <option name="closed" value="true" />
-      <created>1710675618501</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710675618501</updated>
+      <workItem from="1710675415469" duration="4759000" />
     </task>
     <task id="LOCAL-00003" summary="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main">
       <option name="closed" value="true" />
@@ -425,17 +409,53 @@
       <option name="project" value="LOCAL" />
       <updated>1710679546993</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="importo utlidades de jeva">
+      <option name="closed" value="true" />
+      <created>1710680140783</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680140783</updated>
+    </task>
+    <task id="LOCAL-00048" summary="creo la clase simulacion">
+      <option name="closed" value="true" />
+      <created>1710680176287</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680176287</updated>
+    </task>
+    <task id="LOCAL-00049" summary="metodo get nombre">
+      <option name="closed" value="true" />
+      <created>1710680204749</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680204749</updated>
+    </task>
+    <task id="LOCAL-00050" summary="set nombre">
+      <option name="closed" value="true" />
+      <created>1710680222724</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680222725</updated>
+    </task>
+    <task id="LOCAL-00051" summary="get configuraciones">
+      <option name="closed" value="true" />
+      <created>1710680246727</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680246727</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="meotodo de simulacion de crecimiento de la poblacion" />
-    <MESSAGE value="meotodo de simulacion de reproduccion de  la poblacion" />
-    <MESSAGE value="meotodo de simulacion de muerte de la poblacion" />
-    <MESSAGE value="meotodo de simulacion de eventos qeu afectan a la poblacion" />
     <MESSAGE value="creo la clase ecosistema" />
     <MESSAGE value="metodo para agregar una especie" />
     <MESSAGE value="metodo para simular el paso de los años" />
@@ -447,7 +467,6 @@
     <MESSAGE value="metodo para verificar al contraseña" />
     <MESSAGE value="clase para la Autenticacion" />
     <MESSAGE value="metodo para registrar nuevos usuarios" />
-    <MESSAGE value="creo la clase simulacion" />
     <MESSAGE value="añado setter y getters a la clase simulacion" />
     <MESSAGE value="creo la clase interfaz" />
     <MESSAGE value="metodo para registrar usuarios" />
@@ -457,6 +476,11 @@
     <MESSAGE value="creo la clase registro de actividades que se me habia olvidado" />
     <MESSAGE value="metodo para crear una nueva simulacion" />
     <MESSAGE value="metodo para obtener una simulacion registrada" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo para obtener una simulacion registrada" />
+    <MESSAGE value="importo utlidades de jeva" />
+    <MESSAGE value="creo la clase simulacion" />
+    <MESSAGE value="metodo get nombre" />
+    <MESSAGE value="set nombre" />
+    <MESSAGE value="get configuraciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="get configuraciones" />
   </component>
 </project>

@@ -17,3 +17,7 @@ class Especie {
     public int getPoblacion() {
         return poblacion;
     }
+    public void crecer() {
+        // Suponemos un crecimiento constante del 5% cada año
+        this.poblacion += this.poblacion * 0.05;
+    }

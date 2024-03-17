@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo simulacion de la polinizacion" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase especie" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="1914000" />
+      <workItem from="1710675415469" duration="2229000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -201,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710677100014</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="importo utilidades de java">
+      <option name="closed" value="true" />
+      <created>1710677625492</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677625492</updated>
+    </task>
+    <task id="LOCAL-00020" summary="creo la clase especie">
+      <option name="closed" value="true" />
+      <created>1710677665004</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710677665004</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +228,6 @@
     <MESSAGE value="he eliminado el main y una carpeta" />
     <MESSAGE value="creo la carpeta de ecosistema donde se encontrara los 4 modulos y posteriormente el main" />
     <MESSAGE value="creo la carpeta del primer modulo" />
-    <MESSAGE value="importo utilidades de java" />
     <MESSAGE value="creo la clase organismo" />
     <MESSAGE value="creo metodo de simulacion de paso de tiempo" />
     <MESSAGE value="creo metodo de simulacion de interacciones naturales" />
@@ -226,6 +241,8 @@
     <MESSAGE value="metodo simulacion de la predacciion" />
     <MESSAGE value="metodo simulacion de competencai de recursos" />
     <MESSAGE value="metodo simulacion de la polinizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo simulacion de la polinizacion" />
+    <MESSAGE value="importo utilidades de java" />
+    <MESSAGE value="creo la clase especie" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo la clase especie" />
   </component>
 </project>

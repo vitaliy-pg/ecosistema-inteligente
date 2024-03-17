@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="intentado solucionar problemas">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="parece que esta version del main me sale correcta" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +23,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="showPreview" value="true" />
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -40,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -64,23 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="6563000" />
-    </task>
-    <task id="LOCAL-00019" summary="importo utilidades de java">
-      <option name="closed" value="true" />
-      <created>1710677625492</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677625492</updated>
-    </task>
-    <task id="LOCAL-00020" summary="creo la clase especie">
-      <option name="closed" value="true" />
-      <created>1710677665004</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677665004</updated>
+      <workItem from="1710675415469" duration="7069000" />
     </task>
     <task id="LOCAL-00021" summary="meotodo de simulacion de crecimiento de la poblacion">
       <option name="closed" value="true" />
@@ -458,15 +437,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710681862436</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="intentado solucionar problemas parte 2 xd">
+      <option name="closed" value="true" />
+      <created>1710682186255</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1710682186255</updated>
+    </task>
+    <task id="LOCAL-00069" summary="parece que esta version del main me sale correcta">
+      <option name="closed" value="true" />
+      <created>1710682476132</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1710682476132</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para iniciar una simulacion anterior" />
-    <MESSAGE value="creo la clase registro de actividades que se me habia olvidado" />
     <MESSAGE value="metodo para crear una nueva simulacion" />
     <MESSAGE value="metodo para obtener una simulacion registrada" />
     <MESSAGE value="importo utlidades de jeva" />
@@ -490,6 +483,8 @@
     <MESSAGE value="me da muchos errores esat version del main asique voy a probar con otra" />
     <MESSAGE value="me da muchos errores esta version del main asique voy a probar con otra nueva mas" />
     <MESSAGE value="intentado solucionar problemas" />
-    <option name="LAST_COMMIT_MESSAGE" value="intentado solucionar problemas" />
+    <MESSAGE value="intentado solucionar problemas parte 2 xd" />
+    <MESSAGE value="parece que esta version del main me sale correcta" />
+    <option name="LAST_COMMIT_MESSAGE" value="parece que esta version del main me sale correcta" />
   </component>
 </project>

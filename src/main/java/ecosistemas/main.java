@@ -1,8 +1,7 @@
 package ecosistemas;
 
 import ecosistemas.gestion_simulaciones.InterfazUsuario;
-import ecosistemas.simulador_poblaciones.Ecosistema;
-import ecosistemas.simulador_poblaciones.Especie;
+import ecosistemas.simulador_poblaciones.crecimiento_eventos_resultados;
 
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         InterfazUsuario interfazUsuario = new InterfazUsuario();
-        Ecosistema ecosistema = new Ecosistema();
+        crecimiento_eventos_resultados ecosistema = new crecimiento_eventos_resultados ();
 
         System.out.println("¡Bienvenido al Simulador de Ecosistemas!");
 

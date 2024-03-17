@@ -69,7 +69,11 @@ class RegistroActividades {
     public RegistroActividades() {
         this.simulaciones = new HashMap<>();
     }
-class InterfazUsuario {
+    public void registrarSimulacion(String nombreSimulacion, String configuracion) {
+        simulaciones.put(nombreSimulacion, new Simulacion(nombreSimulacion, configuracion));
+    }
+
+    class InterfazUsuario {
     private Autenticacion autenticacion;
     private RegistroActividades registroActividades;
 

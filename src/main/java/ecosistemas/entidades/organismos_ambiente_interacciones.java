@@ -46,7 +46,7 @@ class Ambiente {
     private String clima;
     private String terreno;
     private int recursosDisponibles;
-    private ArrayList<Organismo> organismos;
+    public ArrayList<Organismo> organismos;
 
     public Ambiente(String clima, String terreno, int recursos) {
         this.clima = clima;

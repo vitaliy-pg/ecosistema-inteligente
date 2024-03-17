@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="parece que esta version del main me sale correcta" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="parece que demomento funciona todo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +40,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.MainAnalisis.executor": "Run",
+    "Application.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -51,6 +57,45 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ecosistemas" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration name="MainAnalisis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecosistemas.analisis.MainAnalisis" />
+      <module name="ecosistema" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecosistemas.analisis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecosistemas.main" />
+      <module name="ecosistema" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecosistemas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.MainAnalisis" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,15 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="7069000" />
-    </task>
-    <task id="LOCAL-00021" summary="meotodo de simulacion de crecimiento de la poblacion">
-      <option name="closed" value="true" />
-      <created>1710677693048</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677693048</updated>
+      <workItem from="1710675415469" duration="11367000" />
     </task>
     <task id="LOCAL-00022" summary="meotodo de simulacion de reproduccion de  la poblacion">
       <option name="closed" value="true" />
@@ -453,14 +490,32 @@
       <option name="project" value="LOCAL" />
       <updated>1710682476132</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="parece que demomento funciona todo">
+      <option name="closed" value="true" />
+      <created>1710682774507</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1710682774507</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para crear una nueva simulacion" />
     <MESSAGE value="metodo para obtener una simulacion registrada" />
     <MESSAGE value="importo utlidades de jeva" />
     <MESSAGE value="creo la clase simulacion" />
@@ -485,6 +540,7 @@
     <MESSAGE value="intentado solucionar problemas" />
     <MESSAGE value="intentado solucionar problemas parte 2 xd" />
     <MESSAGE value="parece que esta version del main me sale correcta" />
-    <option name="LAST_COMMIT_MESSAGE" value="parece que esta version del main me sale correcta" />
+    <MESSAGE value="parece que demomento funciona todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="parece que demomento funciona todo" />
   </component>
 </project>

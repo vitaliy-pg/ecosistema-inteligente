@@ -29,3 +29,11 @@ class Especie {
         // Suponemos una tasa de mortalidad del 2% cada año
         this.poblacion -= this.poblacion * 0.02;
     }
+    public void eventoAleatorio() {
+        // Suponemos un evento que reduce la población en un 20%
+        Random random = new Random();
+        if (random.nextInt(100) < 20) {
+            this.poblacion -= this.poblacion * 0.2;
+        }
+    }
+}

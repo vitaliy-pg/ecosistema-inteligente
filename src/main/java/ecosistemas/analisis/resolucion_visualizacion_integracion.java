@@ -18,4 +18,6 @@ class Simulacion {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    public String getConfiguracion() {
+        return configuracion;
+    }

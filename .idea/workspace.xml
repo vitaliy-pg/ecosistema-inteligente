@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para calcular la poblacion total de uan especi en especifico" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo mas metodos aleatorios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="2549000" />
+      <workItem from="1710675415469" duration="3287000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -289,14 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710677947086</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="creo mas metodos aleatorios">
+      <option name="closed" value="true" />
+      <created>1710678173227</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678173227</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creo la carpeta del primer modulo" />
     <MESSAGE value="creo la clase organismo" />
     <MESSAGE value="creo metodo de simulacion de paso de tiempo" />
     <MESSAGE value="creo metodo de simulacion de interacciones naturales" />
@@ -321,6 +330,7 @@
     <MESSAGE value="metodo para simular el paso de los años" />
     <MESSAGE value="metodo para calcular la poblacion total" />
     <MESSAGE value="metodo para calcular la poblacion total de uan especi en especifico" />
-    <option name="LAST_COMMIT_MESSAGE" value="metodo para calcular la poblacion total de uan especi en especifico" />
+    <MESSAGE value="creo mas metodos aleatorios" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo mas metodos aleatorios" />
   </component>
 </project>

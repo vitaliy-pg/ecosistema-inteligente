@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo mas metodos aleatorios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase simulacion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="3287000" />
+      <workItem from="1710675415469" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -299,19 +297,69 @@
       <option name="project" value="LOCAL" />
       <updated>1710678173227</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="importo utilidades de java">
+      <option name="closed" value="true" />
+      <created>1710678878731</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678878731</updated>
+    </task>
+    <task id="LOCAL-00032" summary="creo la clase usuario">
+      <option name="closed" value="true" />
+      <created>1710678902135</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678902135</updated>
+    </task>
+    <task id="LOCAL-00033" summary="metodo para verificar al contraseña">
+      <option name="closed" value="true" />
+      <created>1710678931268</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678931268</updated>
+    </task>
+    <task id="LOCAL-00034" summary="clase para la Autenticacion">
+      <option name="closed" value="true" />
+      <created>1710678964428</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678964428</updated>
+    </task>
+    <task id="LOCAL-00035" summary="metodo para registrar nuevos usuarios">
+      <option name="closed" value="true" />
+      <created>1710678987113</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710678987113</updated>
+    </task>
+    <task id="LOCAL-00036" summary="metodo para verificar usuarios">
+      <option name="closed" value="true" />
+      <created>1710679012876</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679012876</updated>
+    </task>
+    <task id="LOCAL-00037" summary="creo la clase simulacion">
+      <option name="closed" value="true" />
+      <created>1710679050035</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679050035</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creo la clase organismo" />
-    <MESSAGE value="creo metodo de simulacion de paso de tiempo" />
-    <MESSAGE value="creo metodo de simulacion de interacciones naturales" />
-    <MESSAGE value="creo clase para las plantas" />
-    <MESSAGE value="metodo para que las plantas hagan la fotosintesis" />
-    <MESSAGE value="clase para animales" />
     <MESSAGE value="motodo para que los animales puedan moverse" />
     <MESSAGE value=" creo clase ambiente" />
     <MESSAGE value="metodo para agregar organismos al ambiente" />
@@ -319,7 +367,6 @@
     <MESSAGE value="metodo simulacion de la predacciion" />
     <MESSAGE value="metodo simulacion de competencai de recursos" />
     <MESSAGE value="metodo simulacion de la polinizacion" />
-    <MESSAGE value="importo utilidades de java" />
     <MESSAGE value="creo la clase especie" />
     <MESSAGE value="meotodo de simulacion de crecimiento de la poblacion" />
     <MESSAGE value="meotodo de simulacion de reproduccion de  la poblacion" />
@@ -331,6 +378,13 @@
     <MESSAGE value="metodo para calcular la poblacion total" />
     <MESSAGE value="metodo para calcular la poblacion total de uan especi en especifico" />
     <MESSAGE value="creo mas metodos aleatorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo mas metodos aleatorios" />
+    <MESSAGE value="importo utilidades de java" />
+    <MESSAGE value="creo la clase usuario" />
+    <MESSAGE value="metodo para verificar al contraseña" />
+    <MESSAGE value="clase para la Autenticacion" />
+    <MESSAGE value="metodo para registrar nuevos usuarios" />
+    <MESSAGE value="metodo para verificar usuarios" />
+    <MESSAGE value="creo la clase simulacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo la clase simulacion" />
   </component>
 </project>

@@ -15,5 +15,10 @@ abstract class Organismo {
         this.edad = 0; // Edad inicial
         this.estadoReproductivo = false; // No reproductivo al inicio
     }
+    public void envejecer() {
+        this.edad++;
+        if (this.edad >= 5) { // Por ejemplo, consideremos que el estado reproductivo inicia a los 5 años
+            this.estadoReproductivo = true;
+        }
     }
 

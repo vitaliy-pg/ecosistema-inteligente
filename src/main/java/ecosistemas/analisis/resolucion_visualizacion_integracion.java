@@ -38,3 +38,7 @@ class ResolucionProblemas {
     public void analizarEspeciesEnPeligro() {
         // Implementación para analizar especies en peligro
     }
+    public void evaluarEstrategiasConservacion() {
+        // Implementación para evaluar estrategias de conservación
+    }
+}

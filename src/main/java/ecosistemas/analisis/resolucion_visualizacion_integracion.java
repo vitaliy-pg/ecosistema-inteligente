@@ -31,3 +31,4 @@ class Simulacion {
         return resultados.getOrDefault(nombreResultado, 0.0);
     }
 }
+class ResolucionProblemas {

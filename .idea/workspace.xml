@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="parece que demomento funciona todo">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="hasta las narices">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/si.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/endidades/si.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/si.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/si.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/IntegracionNuevasFunciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/Simulacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/VisualizacionDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Ambiente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Organismo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Autenticacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Simulacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador_poblaciones/Especie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador_poblaciones/crecimiento_eventos_resultados.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +57,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MainAnalisis.executor": "Run",
-    "Application.main.executor": "Debug",
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -68,7 +84,7 @@
       <module name="ecosistema" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecosistemas.analisis.*" />
+          <option name="PATTERN" value="ecosistemas.analisis.Simulacion" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,23 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="11367000" />
-    </task>
-    <task id="LOCAL-00022" summary="meotodo de simulacion de reproduccion de  la poblacion">
-      <option name="closed" value="true" />
-      <created>1710677724067</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677724067</updated>
-    </task>
-    <task id="LOCAL-00023" summary="meotodo de simulacion de muerte de la poblacion">
-      <option name="closed" value="true" />
-      <created>1710677753503</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677753503</updated>
+      <workItem from="1710675415469" duration="14614000" />
     </task>
     <task id="LOCAL-00024" summary="meotodo de simulacion de eventos qeu afectan a la poblacion">
       <option name="closed" value="true" />
@@ -498,7 +498,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710682774507</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="ns que estoy haciendo">
+      <option name="closed" value="true" />
+      <created>1710688211074</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688211074</updated>
+    </task>
+    <task id="LOCAL-00072" summary="hasta las narices">
+      <option name="closed" value="true" />
+      <created>1710688568423</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1710688568423</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,8 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para obtener una simulacion registrada" />
-    <MESSAGE value="importo utlidades de jeva" />
     <MESSAGE value="creo la clase simulacion" />
     <MESSAGE value="metodo get nombre" />
     <MESSAGE value="set nombre" />
@@ -541,6 +555,8 @@
     <MESSAGE value="intentado solucionar problemas parte 2 xd" />
     <MESSAGE value="parece que esta version del main me sale correcta" />
     <MESSAGE value="parece que demomento funciona todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="parece que demomento funciona todo" />
+    <MESSAGE value="ns que estoy haciendo" />
+    <MESSAGE value="hasta las narices" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta las narices" />
   </component>
 </project>

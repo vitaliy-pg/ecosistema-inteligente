@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase integracion" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,31 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="5064000" />
-    </task>
-    <task id="LOCAL-00013" summary=" creo clase ambiente">
-      <option name="closed" value="true" />
-      <created>1710676937751</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676937751</updated>
-    </task>
-    <task id="LOCAL-00014" summary="metodo para agregar organismos al ambiente">
-      <option name="closed" value="true" />
-      <created>1710676969033</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1710676969033</updated>
-    </task>
-    <task id="LOCAL-00015" summary="metodo simulacion del paso del tiempo">
-      <option name="closed" value="true" />
-      <created>1710677006976</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677006976</updated>
+      <workItem from="1710675415469" duration="5730000" />
     </task>
     <task id="LOCAL-00016" summary="metodo simulacion de la predacciion">
       <option name="closed" value="true" />
@@ -452,16 +430,37 @@
       <option name="project" value="LOCAL" />
       <updated>1710680554530</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="metodo para permitir las nuevas investigaciones">
+      <option name="closed" value="true" />
+      <created>1710680594959</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680594959</updated>
+    </task>
+    <task id="LOCAL-00063" summary="metodo para permitir nuevas funciones">
+      <option name="closed" value="true" />
+      <created>1710680622994</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680622994</updated>
+    </task>
+    <task id="LOCAL-00064" summary="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo">
+      <option name="closed" value="true" />
+      <created>1710680767465</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1710680767465</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para registrar nuevos usuarios" />
-    <MESSAGE value="añado setter y getters a la clase simulacion" />
-    <MESSAGE value="creo la clase interfaz" />
     <MESSAGE value="metodo para registrar usuarios" />
     <MESSAGE value="metodo para verificar usuarios" />
     <MESSAGE value="metodo para iniciar una nueva simulacion" />
@@ -484,6 +483,9 @@
     <MESSAGE value="creo la clase visualizacion" />
     <MESSAGE value="metodo para ver los datos" />
     <MESSAGE value="creo la clase integracion" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo la clase integracion" />
+    <MESSAGE value="metodo para permitir las nuevas investigaciones" />
+    <MESSAGE value="metodo para permitir nuevas funciones" />
+    <MESSAGE value="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo" />
   </component>
 </project>

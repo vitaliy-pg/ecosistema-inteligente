@@ -21,4 +21,5 @@ abstract class Organismo {
             this.estadoReproductivo = true;
         }
     }
-
+    public abstract void interactuar(Ambiente ambiente);
+}

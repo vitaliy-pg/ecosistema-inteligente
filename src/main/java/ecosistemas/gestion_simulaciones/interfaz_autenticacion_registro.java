@@ -24,3 +24,6 @@ class Autenticacion {
     public Autenticacion() {
         this.usuarios = new HashMap<>();
     }
+    public void registrarUsuario(String nombreUsuario, String contrasena) {
+        usuarios.put(nombreUsuario, new Usuario(nombreUsuario, contrasena));
+    }

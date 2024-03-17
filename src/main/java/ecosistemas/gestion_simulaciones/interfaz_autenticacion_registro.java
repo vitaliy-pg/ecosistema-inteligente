@@ -32,3 +32,15 @@ class Autenticacion {
         return usuario != null && usuario.verificarContrasena(contrasena);
     }
 }
+class Simulacion {
+    private String nombre;
+    private String configuracion;
+
+    public Simulacion(String nombre, String configuracion) {
+        this.nombre = nombre;
+        this.configuracion = configuracion;
+    }
+
+    // Getters y setters
+    // ...
+}

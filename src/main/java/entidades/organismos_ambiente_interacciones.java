@@ -23,3 +23,7 @@ abstract class Organismo {
     }
     public abstract void interactuar(Ambiente ambiente);
 }
+class Planta extends Organismo {
+    public Planta(int posX, int posY) {
+        super(posX, posY);
+    }

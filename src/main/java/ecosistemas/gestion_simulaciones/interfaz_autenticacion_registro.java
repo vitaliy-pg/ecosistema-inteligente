@@ -76,7 +76,7 @@ class RegistroActividades {
         return simulaciones.get(nombreSimulacion);
     }
 }
-    class InterfazUsuario {
+class InterfazUsuario {
     private Autenticacion autenticacion;
     private RegistroActividades registroActividades;
 
@@ -84,16 +84,24 @@ class RegistroActividades {
         this.autenticacion = new Autenticacion();
         this.registroActividades = new RegistroActividades();
     }
+
     public void registrarUsuario(String nombreUsuario, String contrasena) {
         autenticacion.registrarUsuario(nombreUsuario, contrasena);
     }
+
     public boolean autenticarUsuario(String nombreUsuario, String contrasena) {
         return autenticacion.autenticarUsuario(nombreUsuario, contrasena);
     }
+
     public void iniciarSimulacion(String nombreSimulacion, String configuracion) {
         registroActividades.registrarSimulacion(nombreSimulacion, configuracion);
     }
+
     public Simulacion obtenerSimulacion(String nombreSimulacion) {
         return registroActividades.obtenerSimulacion(nombreSimulacion);
+    }
+
+    public void crearOrganismo(String nombreOrganismo) {
+        System.out.println("Se ha creado el organismo " + nombreOrganismo);
     }
 }

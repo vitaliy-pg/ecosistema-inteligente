@@ -54,3 +54,6 @@ class Ambiente {
         this.recursosDisponibles = recursos;
         this.organismos = new ArrayList<>();
     }
+    public void agregarOrganismo(Organismo organismo) {
+        this.organismos.add(organismo);
+    }

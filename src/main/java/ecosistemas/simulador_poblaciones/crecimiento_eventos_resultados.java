@@ -25,3 +25,7 @@ class Especie {
         // Cada individuo puede reproducirse y tener una descendencia
         this.poblacion += this.poblacion * 0.1;
     }
+    public void morir() {
+        // Suponemos una tasa de mortalidad del 2% cada año
+        this.poblacion -= this.poblacion * 0.02;
+    }

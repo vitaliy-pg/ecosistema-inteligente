@@ -27,3 +27,9 @@ class Planta extends Organismo {
     public Planta(int posX, int posY) {
         super(posX, posY);
     }
+
+    public void interactuar(Ambiente ambiente) {
+        // Las plantas pueden realizar fotosíntesis o propagarse, por ejemplo
+        // Aquí podrías implementar la lógica específica para las plantas
+    }
+}

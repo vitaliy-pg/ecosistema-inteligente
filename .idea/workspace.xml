@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="creo la clase simulacion" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="metodo para iniciar una simulacion anterior">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="3652000" />
+      <workItem from="1710675415469" duration="3970000" />
     </task>
     <task id="LOCAL-00001" summary="voy a quitar algunos archivos y algunas carpetas">
       <option name="closed" value="true" />
@@ -353,18 +355,61 @@
       <option name="project" value="LOCAL" />
       <updated>1710679050035</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="añado setter y getters a la clase simulacion">
+      <option name="closed" value="true" />
+      <created>1710679245094</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679245094</updated>
+    </task>
+    <task id="LOCAL-00039" summary="creo la clase interfaz">
+      <option name="closed" value="true" />
+      <created>1710679284731</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679284731</updated>
+    </task>
+    <task id="LOCAL-00040" summary="metodo para registrar usuarios">
+      <option name="closed" value="true" />
+      <created>1710679309212</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679309212</updated>
+    </task>
+    <task id="LOCAL-00041" summary="metodo para verificar usuarios">
+      <option name="closed" value="true" />
+      <created>1710679369946</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679369946</updated>
+    </task>
+    <task id="LOCAL-00042" summary="metodo para iniciar una nueva simulacion">
+      <option name="closed" value="true" />
+      <created>1710679412720</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679412720</updated>
+    </task>
+    <task id="LOCAL-00043" summary="metodo para iniciar una simulacion anterior">
+      <option name="closed" value="true" />
+      <created>1710679438281</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710679438281</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="motodo para que los animales puedan moverse" />
-    <MESSAGE value=" creo clase ambiente" />
-    <MESSAGE value="metodo para agregar organismos al ambiente" />
-    <MESSAGE value="metodo simulacion del paso del tiempo" />
-    <MESSAGE value="metodo simulacion de la predacciion" />
     <MESSAGE value="metodo simulacion de competencai de recursos" />
     <MESSAGE value="metodo simulacion de la polinizacion" />
     <MESSAGE value="creo la clase especie" />
@@ -383,8 +428,13 @@
     <MESSAGE value="metodo para verificar al contraseña" />
     <MESSAGE value="clase para la Autenticacion" />
     <MESSAGE value="metodo para registrar nuevos usuarios" />
-    <MESSAGE value="metodo para verificar usuarios" />
     <MESSAGE value="creo la clase simulacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo la clase simulacion" />
+    <MESSAGE value="añado setter y getters a la clase simulacion" />
+    <MESSAGE value="creo la clase interfaz" />
+    <MESSAGE value="metodo para registrar usuarios" />
+    <MESSAGE value="metodo para verificar usuarios" />
+    <MESSAGE value="metodo para iniciar una nueva simulacion" />
+    <MESSAGE value="metodo para iniciar una simulacion anterior" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo para iniciar una simulacion anterior" />
   </component>
 </project>

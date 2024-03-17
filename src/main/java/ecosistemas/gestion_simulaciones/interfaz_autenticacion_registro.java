@@ -63,6 +63,12 @@ class Simulacion {
         this.configuracion = configuracion;
     }
 }
+class RegistroActividades {
+    private Map<String, Simulacion> simulaciones;
+
+    public RegistroActividades() {
+        this.simulaciones = new HashMap<>();
+    }
 class InterfazUsuario {
     private Autenticacion autenticacion;
     private RegistroActividades registroActividades;

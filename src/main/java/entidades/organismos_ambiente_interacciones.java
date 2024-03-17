@@ -33,3 +33,7 @@ class Planta extends Organismo {
         // Aquí podrías implementar la lógica específica para las plantas
     }
 }
+class Animal extends Organismo {
+    public Animal(int posX, int posY) {
+        super(posX, posY);
+    }

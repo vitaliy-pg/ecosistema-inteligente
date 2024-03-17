@@ -35,5 +35,6 @@ class ResolucionProblemas {
     public void buscarEquilibrioEcologico() {
         // Implementación para buscar equilibrios ecológicos
     }
-
-}
+    public void analizarEspeciesEnPeligro() {
+        // Implementación para analizar especies en peligro
+    }

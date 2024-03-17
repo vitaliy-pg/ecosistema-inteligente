@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="hasta las narices">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/si.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/endidades/si.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/si.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/si.java" afterDir="false" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="arreglando el codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/IntegracionNuevasFunciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/Simulacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/VisualizacionDatos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/analisis/resolucion_visualizacion_integracion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Ambiente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/Organismo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/entidades/organismos_ambiente_interacciones.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Autenticacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Simulacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion_simulaciones/interfaz_autenticacion_registro.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador_poblaciones/Especie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador_poblaciones/crecimiento_eventos_resultados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/SimuladorPoblaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/SimuladorPoblaciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -120,31 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="14614000" />
-    </task>
-    <task id="LOCAL-00024" summary="meotodo de simulacion de eventos qeu afectan a la poblacion">
-      <option name="closed" value="true" />
-      <created>1710677776135</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677776135</updated>
-    </task>
-    <task id="LOCAL-00025" summary="creo la clase ecosistema">
-      <option name="closed" value="true" />
-      <created>1710677815650</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677815650</updated>
-    </task>
-    <task id="LOCAL-00026" summary="metodo para agregar una especie">
-      <option name="closed" value="true" />
-      <created>1710677846336</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677846336</updated>
+      <workItem from="1710675415469" duration="15800000" />
     </task>
     <task id="LOCAL-00027" summary="metodo para simular el paso de los años">
       <option name="closed" value="true" />
@@ -514,7 +474,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710688568423</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="he mandado todo a la mierda">
+      <option name="closed" value="true" />
+      <created>1710691355387</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691355387</updated>
+    </task>
+    <task id="LOCAL-00074" summary="arreglando el codigo">
+      <option name="closed" value="true" />
+      <created>1710691483642</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691483642</updated>
+    </task>
+    <task id="LOCAL-00075" summary="arreglando el codigo">
+      <option name="closed" value="true" />
+      <created>1710691642403</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1710691642403</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,8 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creo la clase simulacion" />
-    <MESSAGE value="metodo get nombre" />
     <MESSAGE value="set nombre" />
     <MESSAGE value="get configuraciones" />
     <MESSAGE value="set configuarciones" />
@@ -557,6 +539,8 @@
     <MESSAGE value="parece que demomento funciona todo" />
     <MESSAGE value="ns que estoy haciendo" />
     <MESSAGE value="hasta las narices" />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta las narices" />
+    <MESSAGE value="he mandado todo a la mierda" />
+    <MESSAGE value="arreglando el codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando el codigo" />
   </component>
 </project>

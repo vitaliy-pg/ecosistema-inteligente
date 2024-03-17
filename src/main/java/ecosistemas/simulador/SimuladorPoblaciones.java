@@ -33,4 +33,5 @@ public class SimuladorPoblaciones {
             System.out.println(poblacion.getEspecie().getNombre() + ": " + poblacion.getCantidad());
         }
     }
+
 }

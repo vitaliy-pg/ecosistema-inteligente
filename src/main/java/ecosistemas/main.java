@@ -98,6 +98,8 @@ public class main {
     // Aquí puedes hacer algo con la nueva planta, como agregarla a una lista de plantas en tu vivero, etc.
         System.out.println("¡Planta creada exitosamente!");
 }
+
+
     public static void crearNuevoAnimal(Scanner scanner) {
         System.out.println("Ingrese el nombre del animal:");
         String nombre = scanner.next();
@@ -109,9 +111,14 @@ public class main {
         int edad = scanner.nextInt();
 
         // Aquí puedes agregar más atributos según tu clase Animal
+        System.out.println("Ingrese el género del animal:");
+        String genero = scanner.next();
+
+        System.out.println("Ingrese el color del animal:");
+        String color = scanner.next();
 
         // Crear una nueva instancia de Animal con los datos proporcionados
-        Animal nuevoAnimal = new Animal(nombre, especie, edad);
+        Animal nuevoAnimal = new Animal(nombre, especie, edad, genero, color);
 
         // Aquí puedes hacer algo con el nuevo animal, como agregarlo a una lista de animales en tu zoológico, etc.
         System.out.println("¡Animal creado exitosamente!");
@@ -239,18 +246,60 @@ class Planta {
 
     // Getters y setters (si es necesario)
 }
- class Animal {
+class Animal {
     private String nombre;
     private String especie;
     private int edad;
+    private String genero;
+    private String color;
 
     // Constructor
-    public Animal(String nombre, String especie, int edad) {
+    public Animal(String nombre, String especie, int edad, String genero, String color) {
         this.nombre = nombre;
         this.especie = especie;
         this.edad = edad;
+        this.genero = genero;
+        this.color = color;
     }
 
-    // Getters y setters (si es necesario)
-}
+    // Getters y setters
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}

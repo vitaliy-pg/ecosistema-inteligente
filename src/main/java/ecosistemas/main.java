@@ -215,38 +215,73 @@ public class main {
 
 
 
-    public static void gestionUsuariosSimulacionesMenu() {
-        Scanner scanner = new Scanner(System.in);
-        boolean salir = false;
+        public static void gestionUsuariosSimulacionesMenu() {
+            Scanner scanner = new Scanner(System.in);
+            boolean salir = false;
 
-        while (!salir) {
-            System.out.println("\n--- Gestión de Usuarios y Simulaciones ---");
-            System.out.println("1. Interfaz de Usuario");
-            System.out.println("2. Autenticación");
-            System.out.println("3. Registro de Actividades");
-            System.out.println("4. Volver al Menú Principal");
-            System.out.print("Seleccione una opción: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir el salto de línea
+            while (!salir) {
+                System.out.println("\n--- Gestión de Usuarios y Simulaciones ---");
+                System.out.println("1. Interfaz de Usuario");
+                System.out.println("2. Autenticación");
+                System.out.println("3. Registro de Actividades");
+                System.out.println("4. Volver al Menú Principal");
+                System.out.print("Seleccione una opción: ");
+                int opcion = scanner.nextInt();
+                scanner.nextLine(); // Consumir el salto de línea
 
-            switch (opcion) {
-                case 1:
-                    // Lógica para la interfaz de usuario
-                    break;
-                case 2:
-                    // Lógica para la autenticación
-                    break;
-                case 3:
-                    // Lógica para el registro de actividades
-                    break;
-                case 4:
-                    salir = true;
-                    break;
-                default:
-                    System.out.println("Opción no válida, intente de nuevo.");
-                    break;
+                switch (opcion) {
+                    case 1:
+                        boolean usuarioAutenticado = false;
+                        if (usuarioAutenticado) {
+                            interfazUsuario();
+                        } else {
+                            System.out.println("Error: Debe autenticarse primero para acceder a la interfaz de usuario.");
+                        }
+                        break;
+                    case 2:
+                        autenticacion();
+                        break;
+                    case 3:
+                        usuarioAutenticado = true;
+                        if (usuarioAutenticado) {
+                            registroActividades();
+                        } else {
+                            System.out.println("Error: Debe autenticarse primero para acceder al registro de actividades.");
+                        }
+                        break;
+                    case 4:
+                        salir = true;
+                        break;
+                    default:
+                        System.out.println("Opción no válida, intente de nuevo.");
+                        break;
+                }
             }
         }
+
+    private static void registroActividades () {
+        System.out.println("Mostrando registros de actividades...");
+    }
+
+    private static void autenticacion () {
+        // Lógica para la autenticación
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese su nombre de usuario: ");
+        String usuario = scanner.nextLine();
+        System.out.print("Ingrese su contraseña: ");
+        String contrasena = scanner.nextLine();
+
+        // Suponiendo un usuario y contraseña fijos para este ejemplo
+        if (usuario.equals("admin") && contrasena.equals("admin123")) {
+          boolean  usuarioAutenticado = true;
+            System.out.println("Autenticación exitosa. Ahora puede acceder a la interfaz de usuario y al registro de actividades.");
+        } else {
+            System.out.println("Error: Nombre de usuario o contraseña incorrectos.");
+        }
+    }
+
+    private static void interfazUsuario () {
+        System.out.println("Bienvenido a la Interfaz de Usuario.");
     }
 
     public static void analisisAvanzadoMenu() {
@@ -283,6 +318,7 @@ public class main {
         }
     }
 }
+
 
 class Planta {
     private String nombre;

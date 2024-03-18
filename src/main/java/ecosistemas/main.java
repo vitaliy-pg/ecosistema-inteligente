@@ -1,10 +1,14 @@
 package ecosistemas;
+import ecosistemas.gestion.InterfazUsuario;
 import ecosistemas.simulador.Ambiente;
 import ecosistemas.simulador.Simulador;
 
 import java.util.Scanner;
 
 import java.util.Random;
+
+import static ecosistemas.gestion.InterfazUsuario.registroActividades;
+
 public class main {
 
     public static void main(String[] args) {
@@ -263,28 +267,42 @@ public class main {
         }
     }
 
-    private static void interfazUsuario () {
+
+
+    private static void interfazUsuario() {
         Scanner scanner = new Scanner(System.in);
         boolean salir = false;
+
+        // Variables para almacenar los parámetros de simulación
+        double velocidadSimulacion = 1.0;
+        double temperaturaInicial = 25.0;
+        int duracionSimulacion = 100;
 
         while (!salir) {
             System.out.println("\n--- Interfaz de Usuario ---");
             System.out.println("1. Configurar Simulación");
             System.out.println("2. Iniciar Simulación");
             System.out.println("3. Detener Simulación");
-            System.out.println("4. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.println("4. salir");
             int opcion = scanner.nextInt();
             scanner.nextLine(); // Consumir el salto de línea
 
             switch (opcion) {
                 case 1:
-                    System.out.println("Configurando la simulación...");
-                    // Aquí puedes permitir que los investigadores configuren los parámetros de la simulación
+                    System.out.println("--- Configuración de Simulación ---");
+                    System.out.print("Ingrese la velocidad de simulación (por defecto es 1.0): ");
+                    velocidadSimulacion = scanner.nextDouble();
+                    System.out.print("Ingrese la temperatura inicial (en grados Celsius, por defecto es 25.0): ");
+                    temperaturaInicial = scanner.nextDouble();
+                    System.out.print("Ingrese la duración de la simulación (en días, por defecto es 100): ");
+                    duracionSimulacion = scanner.nextInt();
                     break;
                 case 2:
                     System.out.println("Iniciando la simulación...");
                     // Aquí puedes iniciar la simulación con los parámetros configurados previamente
+                    System.out.println("Velocidad de simulación: " + velocidadSimulacion);
+                    System.out.println("Temperatura inicial: " + temperaturaInicial + "°C");
+                    System.out.println("Duración de la simulación: " + duracionSimulacion + " días");
                     break;
                 case 3:
                     System.out.println("Deteniendo la simulación...");
@@ -299,14 +317,9 @@ public class main {
                     break;
             }
         }
-        scanner.close(); // Cerrar el Scanner al finalizar
     }
 
 
-
-    private static void registroActividades () {
-        System.out.println("Mostrando registros de actividades...");
-    }
 
     public static boolean autenticacion() {
         Scanner scanner = new Scanner(System.in);

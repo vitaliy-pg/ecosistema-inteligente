@@ -31,7 +31,6 @@ public class main {
                     break;
                 case 2:
                     simuladorPoblacionalMenu (ambiente, simulador);
-                    simularCrecimientoYReproduccion(ambiente, simulador);
                     break;
                 case 3:
                     gestionUsuariosSimulacionesMenu();
@@ -152,7 +151,7 @@ public class main {
 
                     break;
                 case 2:
-                    simularEventosAleatorios ( ambiente);
+                    simularEventosAleatorios ( ambiente, simulador);
                     // Lógica para simular eventos aleatorios
 
                     break;
@@ -173,7 +172,7 @@ public class main {
     }
     public static void simularCrecimientoYReproduccion(Ambiente ambiente, Simulador simulador) {
         // Lógica para simular el crecimiento y reproducción
-        simulador.simularCrecimientoYReproduccion(ambiente);
+        simulador.simularCrecimientoYReproduccion(ambiente, 3.0, 1000);
         System.out.println("Simulación de crecimiento y reproducción realizada.");
     }
 
@@ -183,7 +182,7 @@ public class main {
         // No es necesario imprimir aquí, ya que se imprime dentro del método verResultadosSimulacion
     }
 
-    public static void simularEventosAleatorios(Ambiente ambiente) {
+    public static void simularEventosAleatorios( Ambiente ambiente, Simulador simulador ) {
         Random random = new Random();
         double probabilidadEvento = 0.8; // Probabilidad de que ocurra un evento aleatorio (80%)
         if (random.nextDouble() < probabilidadEvento) { // Comprobamos si ocurre un evento aleatorio según la probabilidad configurada

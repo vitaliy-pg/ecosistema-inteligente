@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="arreglando el codigo">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="sigo mejorando esto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/SimuladorPoblaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/simulador/SimuladorPoblaciones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,15 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="15800000" />
-    </task>
-    <task id="LOCAL-00027" summary="metodo para simular el paso de los años">
-      <option name="closed" value="true" />
-      <created>1710677874807</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1710677874807</updated>
+      <workItem from="1710675415469" duration="17572000" />
     </task>
     <task id="LOCAL-00028" summary="metodo para calcular la poblacion total">
       <option name="closed" value="true" />
@@ -498,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710691642403</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="sigo mejorando esto">
+      <option name="closed" value="true" />
+      <created>1710692559815</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1710692559815</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set nombre" />
     <MESSAGE value="get configuraciones" />
     <MESSAGE value="set configuarciones" />
     <MESSAGE value="metodo para agregar resultados" />
@@ -541,6 +540,7 @@
     <MESSAGE value="hasta las narices" />
     <MESSAGE value="he mandado todo a la mierda" />
     <MESSAGE value="arreglando el codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglando el codigo" />
+    <MESSAGE value="sigo mejorando esto" />
+    <option name="LAST_COMMIT_MESSAGE" value="sigo mejorando esto" />
   </component>
 </project>

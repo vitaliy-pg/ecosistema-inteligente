@@ -65,6 +65,7 @@ public class main {
             switch (opcion) {
                 case 1:
                     // Lógica para crear una nueva planta
+                    crearNuevaPlanta(scanner);
                     break;
                 case 2:
                     // Lógica para crear un nuevo animal
@@ -78,6 +79,24 @@ public class main {
             }
         }
     }
+    public static void crearNuevaPlanta ( Scanner scanner ) {
+    System.out.println("Ingrese el nombre de la planta:");
+    String nombre = scanner.next();
+
+        System.out.println("Ingrese el tipo de la planta:");
+    String tipo = scanner.next();
+
+        System.out.println("Ingrese la altura de la planta:");
+    double altura = scanner.nextDouble();
+
+    // Aquí puedes agregar más atributos según tu clase Planta
+
+    // Crear una nueva instancia de Planta con los datos proporcionados
+    Planta nuevaPlanta = new Planta(nombre, tipo, altura);
+
+    // Aquí puedes hacer algo con la nueva planta, como agregarla a una lista de plantas en tu vivero, etc.
+        System.out.println("¡Planta creada exitosamente!");
+}
 
     public static void simuladorPoblacionalMenu(Ambiente ambiente, Simulador simulador) {
         Scanner scanner = new Scanner(System.in);
@@ -96,12 +115,15 @@ public class main {
             switch (opcion) {
                 case 1:
                     // Lógica para simular el crecimiento y reproducción
+
                     break;
                 case 2:
                     // Lógica para simular eventos aleatorios
+
                     break;
                 case 3:
                     // Lógica para ver resultados de la simulación
+
                     break;
                 case 4:
                     salir = true;
@@ -181,3 +203,19 @@ public class main {
         }
     }
 }
+
+class Planta {
+    private String nombre;
+    private String tipo;
+    private double altura;
+
+    // Constructor
+    public Planta(String nombre, String tipo, double altura) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.altura = altura;
+    }
+
+    // Getters y setters (si es necesario)
+}
+

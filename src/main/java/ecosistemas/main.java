@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import java.util.Random;
 
-import static ecosistemas.gestion.InterfazUsuario.registroActividades;
+import static ecosistemas.gestion.InterfazUsuario.RegistroActividades;
 
 public class main {
 
@@ -252,7 +252,7 @@ public class main {
                     break;
                 case 3:
                     if (usuarioAutenticado) {
-                        registroActividades();
+                        RegistroActividades();
                     } else {
                         System.out.println("Error: Debe autenticarse primero para acceder al registro de actividades.");
                     }
@@ -318,6 +318,7 @@ public class main {
             }
         }
     }
+
 
 
 

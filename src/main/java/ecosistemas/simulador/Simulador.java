@@ -4,29 +4,27 @@ import java.util.Random;
 
 public class Simulador {
     private Random random;
+    private double tasaCrecimiento; // Tasa de crecimiento como porcentaje (por ejemplo, 0.1 representa el 10%)
+    private double probabilidadEvento; // Probabilidad de que ocurra un evento aleatorio (por ejemplo, 0.1 representa el 10%)
 
-    public Simulador() {
+    public Simulador(double tasaCrecimiento, double probabilidadEvento) {
         this.random = new Random();
+        this.tasaCrecimiento = tasaCrecimiento;
+        this.probabilidadEvento = probabilidadEvento;
     }
 
     public void simularCrecimientoYReproduccion(Ambiente ambiente) {
-        // Lógica para simular el crecimiento y la reproducción de la población en el ambiente
-        // Esto puede implicar aumentar la cantidad de organismos, calcular tasas de reproducción, etc.
-        // Ejemplo:
-        System.out.println("Simulando crecimiento y reproducción...");
-        int nuevaPoblacion = ambiente.getPoblacion() + random.nextInt(10); // Incrementar la población aleatoriamente
+        int poblacionActual = ambiente.getPoblacion();
+        int nuevaPoblacion = (int) (poblacionActual * (1 + tasaCrecimiento)); // Aumento de la población según la tasa de crecimiento configurada
         ambiente.setPoblacion(nuevaPoblacion);
+        System.out.println("Simulando crecimiento y reproducción... Nueva población: " + nuevaPoblacion);
     }
 
     public void simularEventosAleatorios(Ambiente ambiente) {
-        // Lógica para simular eventos aleatorios en el ambiente
-        // Esto puede incluir desastres naturales, cambios climáticos, etc.
-        // Ejemplo:
-        System.out.println("Simulando eventos aleatorios...");
-        if (random.nextDouble() < 0.2) { // Hay un 20% de probabilidad de que ocurra un evento
-            // Disminuir la población aleatoriamente
+        if (random.nextDouble() < probabilidadEvento) { // Comprobamos si ocurre un evento aleatorio según la probabilidad configurada
             int poblacionActual = ambiente.getPoblacion();
-            int nuevaPoblacion = poblacionActual - random.nextInt(Math.min(poblacionActual, 5)); // Reducir la población en hasta 5 organismos
+            int reduccion = random.nextInt(Math.min(poblacionActual, 10)); // Reducción de hasta el 10% de la población actual
+            int nuevaPoblacion = poblacionActual - reduccion;
             ambiente.setPoblacion(nuevaPoblacion);
             System.out.println("Se ha producido un evento aleatorio. Población actual: " + nuevaPoblacion);
         } else {
@@ -35,10 +33,7 @@ public class Simulador {
     }
 
     public void verResultadosSimulacion(Ambiente ambiente) {
-        // Lógica para mostrar los resultados de la simulación
-        // Esto puede incluir la visualización de estadísticas, gráficos, etc.
-        // En esta implementación de ejemplo, simplemente imprimimos un mensaje.
-        System.out.println("Mostrando resultados de la simulación...");
-        System.out.println("Los resultados se mostrarían aquí.");
+        System.out.println("Resultados de la simulación:");
+        System.out.println("Población actual: " + ambiente.getPoblacion());
     }
 }

@@ -10,7 +10,7 @@ public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Ambiente ambiente = new Ambiente("Tropical", "Selva", 1000, 50, 50);
-        Simulador simulador = new Simulador();
+        Simulador simulador = new Simulador( 3.0, 80.0);
 
         boolean salir = false;
 

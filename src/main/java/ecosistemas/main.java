@@ -188,7 +188,23 @@ public class main {
         // No es necesario imprimir aquí, ya que se imprime dentro del método verResultadosSimulacion
     }
 
-
+    public void simularEventosAleatorios(Ambiente ambiente) {
+        Scanner random = null;
+        double probabilidadEvento = 80;
+        if (random.nextDouble() < probabilidadEvento) { // Comprobamos si ocurre un evento aleatorio según la probabilidad configurada
+            int poblacionActual = ambiente.getPoblacion();
+            if (poblacionActual > 0) {
+                int reduccion = random.nextInt(Math.min(poblacionActual, 10)); // Reducción de hasta el 10% de la población actual
+                int nuevaPoblacion = poblacionActual - reduccion;
+                ambiente.setPoblacion(nuevaPoblacion);
+                System.out.println("Se ha producido un evento aleatorio. Población actual: " + nuevaPoblacion);
+            } else {
+                System.out.println("No ha ocurrido ningún evento aleatorio. La población actual es cero.");
+            }
+        } else {
+            System.out.println("No ha ocurrido ningún evento aleatorio.");
+        }
+    }
 
 
 

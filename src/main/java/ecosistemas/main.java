@@ -170,24 +170,23 @@ public class main {
         }
 
     }
-        public static void simularCrecimientoYReproduccion(Ambiente ambiente, Simulador simulador) {
-            // Lógica para simular el crecimiento y reproducción
-            simulador.simularCrecimientoYReproduccion(ambiente);
-            System.out.println("Simulación de crecimiento y reproducción realizada.");
-        }
+    public static void simularCrecimientoYReproduccion(Ambiente ambiente, Simulador simulador) {
+        // Lógica para simular el crecimiento y reproducción
+        simulador.simularCrecimientoYReproduccion(ambiente);
+        System.out.println("Simulación de crecimiento y reproducción realizada.");
+    }
 
-        public static void simularEventosAleatorios(Ambiente ambiente, Simulador simulador) {
-            // Lógica para simular eventos aleatorios
-            simulador.simularEventosAleatorios(ambiente);
-            System.out.println("Simulación de eventos aleatorios realizada.");
-        }
+    public static void simularEventosAleatorios(Ambiente ambiente, Simulador simulador) {
+        // Lógica para simular eventos aleatorios
+        simulador.simularEventosAleatorios(ambiente);
+        System.out.println("Simulación de eventos aleatorios realizada.");
+    }
 
-        public static void verResultadosSimulacion(Ambiente ambiente, Simulador simulador) {
-            // Lógica para ver resultados de la simulación
-            simulador.verResultadosSimulacion(ambiente);
-            System.out.println("Resultados de la simulación:");
-            // Imprimir resultados, dependiendo de cómo estén implementados en la clase Resultados
-        }
+    public static void verResultadosSimulacion(Ambiente ambiente, Simulador simulador) {
+        // Lógica para ver resultados de la simulación
+        simulador.verResultadosSimulacion(ambiente);
+        // No es necesario imprimir aquí, ya que se imprime dentro del método verResultadosSimulacion
+    }
 
 
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="sigo mejorando el codigo" />
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="madre mia qeu pedazo codigo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,15 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="21278000" />
-    </task>
-    <task id="LOCAL-00033" summary="metodo para verificar al contraseña">
-      <option name="closed" value="true" />
-      <created>1710678931268</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1710678931268</updated>
+      <workItem from="1710675415469" duration="21635000" />
     </task>
     <task id="LOCAL-00034" summary="clase para la Autenticacion">
       <option name="closed" value="true" />
@@ -494,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710752165810</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="madre mia qeu pedazo codigo">
+      <option name="closed" value="true" />
+      <created>1710752621842</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1710752621842</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para obtener resultados de la simulacion" />
     <MESSAGE value="creo clase resolucion de problemas" />
     <MESSAGE value="metodo para buscar equilibrio ecologico" />
     <MESSAGE value="metodo para buscar especies en peligro" />
@@ -537,6 +536,7 @@
     <MESSAGE value="añadiendo metodos a la animal" />
     <MESSAGE value="añadiendo metodos a la planta" />
     <MESSAGE value="sigo mejorando el codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="sigo mejorando el codigo" />
+    <MESSAGE value="madre mia qeu pedazo codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="madre mia qeu pedazo codigo" />
   </component>
 </project>

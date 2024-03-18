@@ -80,24 +80,28 @@ public class main {
             }
         }
     }
-    public static void crearNuevaPlanta ( Scanner scanner ) {
-    System.out.println("Ingrese el nombre de la planta:");
-    String nombre = scanner.next();
+    public static void crearNuevaPlanta(Scanner scanner) {
+        System.out.println("Ingrese el nombre de la planta:");
+        String nombre = scanner.next();
 
         System.out.println("Ingrese el tipo de la planta:");
-    String tipo = scanner.next();
+        String tipo = scanner.next();
 
         System.out.println("Ingrese la altura de la planta:");
-    double altura = scanner.nextDouble();
+        double altura = scanner.nextDouble();
 
-    // Aquí puedes agregar más atributos según tu clase Planta
+        System.out.println("Ingrese el estado de salud de la planta (bueno, regular, malo):");
+        String salud = scanner.next();
 
-    // Crear una nueva instancia de Planta con los datos proporcionados
-    Planta nuevaPlanta = new Planta(nombre, tipo, altura);
+        System.out.println("Ingrese el estado de reproducción de la planta (true/false):");
+        boolean estadoReproduccion = scanner.nextBoolean();
 
-    // Aquí puedes hacer algo con la nueva planta, como agregarla a una lista de plantas en tu vivero, etc.
+        // Crear una nueva instancia de Planta con los datos proporcionados
+        Planta nuevaPlanta = new Planta(nombre, tipo, altura, salud, estadoReproduccion);
+
+        // Aquí puedes hacer algo con la nueva planta, como agregarla a una lista de plantas en tu vivero, etc.
         System.out.println("¡Planta creada exitosamente!");
-}
+    }
 
 
     public static void crearNuevoAnimal(Scanner scanner) {
@@ -236,15 +240,58 @@ class Planta {
     private String nombre;
     private String tipo;
     private double altura;
+    private String salud;
+    private boolean estadoReproduccion;
 
     // Constructor
-    public Planta(String nombre, String tipo, double altura) {
+    public Planta(String nombre, String tipo, double altura, String salud, boolean estadoReproduccion) {
         this.nombre = nombre;
         this.tipo = tipo;
         this.altura = altura;
+        this.salud = salud;
+        this.estadoReproduccion = estadoReproduccion;
     }
 
-    // Getters y setters (si es necesario)
+    // Getters y setters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public String getSalud() {
+        return salud;
+    }
+
+    public void setSalud(String salud) {
+        this.salud = salud;
+    }
+
+    public boolean isEstadoReproduccion() {
+        return estadoReproduccion;
+    }
+
+    public void setEstadoReproduccion(boolean estadoReproduccion) {
+        this.estadoReproduccion = estadoReproduccion;
+    }
 }
 class Animal {
     private String nombre;

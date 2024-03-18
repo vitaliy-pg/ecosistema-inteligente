@@ -4,7 +4,7 @@ import ecosistemas.simulador.Simulador;
 
 import java.util.Scanner;
 
-
+import java.util.Random;
 public class main {
 
     public static void main(String[] args) {
@@ -30,7 +30,8 @@ public class main {
                     modeladoEntidadesMenu(ambiente);
                     break;
                 case 2:
-                    simuladorPoblacionalMenu(ambiente, simulador);
+                    simuladorPoblacionalMenu (ambiente, simulador);
+                    simularCrecimientoYReproduccion(ambiente, simulador);
                     break;
                 case 3:
                     gestionUsuariosSimulacionesMenu();
@@ -151,7 +152,7 @@ public class main {
 
                     break;
                 case 2:
-                    simularEventosAleatorios ( ambiente, simulador );
+                    simularEventosAleatorios ( ambiente);
                     // Lógica para simular eventos aleatorios
 
                     break;
@@ -176,24 +177,18 @@ public class main {
         System.out.println("Simulación de crecimiento y reproducción realizada.");
     }
 
-    public static void simularEventosAleatorios(Ambiente ambiente, Simulador simulador) {
-        // Lógica para simular eventos aleatorios
-        simulador.simularEventosAleatorios(ambiente);
-        System.out.println("Simulación de eventos aleatorios realizada.");
-    }
-
     public static void verResultadosSimulacion(Ambiente ambiente, Simulador simulador) {
         // Lógica para ver resultados de la simulación
         simulador.verResultadosSimulacion(ambiente);
         // No es necesario imprimir aquí, ya que se imprime dentro del método verResultadosSimulacion
     }
 
-    public void simularEventosAleatorios(Ambiente ambiente) {
-        Scanner random = null;
-        double probabilidadEvento = 80;
+    public static void simularEventosAleatorios(Ambiente ambiente) {
+        Random random = new Random();
+        double probabilidadEvento = 0.8; // Probabilidad de que ocurra un evento aleatorio (80%)
         if (random.nextDouble() < probabilidadEvento) { // Comprobamos si ocurre un evento aleatorio según la probabilidad configurada
             int poblacionActual = ambiente.getPoblacion();
-            if (poblacionActual > 0) {
+            if (poblacionActual > 9) {
                 int reduccion = random.nextInt(Math.min(poblacionActual, 10)); // Reducción de hasta el 10% de la población actual
                 int nuevaPoblacion = poblacionActual - reduccion;
                 ambiente.setPoblacion(nuevaPoblacion);
@@ -205,7 +200,6 @@ public class main {
             System.out.println("No ha ocurrido ningún evento aleatorio.");
         }
     }
-
 
 
 

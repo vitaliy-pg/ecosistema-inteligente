@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="esto cansado jefe">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="parece que no pero poco a poco va">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/InterfazUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/InterfazUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
@@ -28,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2doXT21hWGYmzAYV3SRksM26bgw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -104,15 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
-      <workItem from="1710675415469" duration="25850000" />
-    </task>
-    <task id="LOCAL-00038" summary="añado setter y getters a la clase simulacion">
-      <option name="closed" value="true" />
-      <created>1710679245094</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679245094</updated>
+      <workItem from="1710675415469" duration="27226000" />
+      <workItem from="1710765239006" duration="1436000" />
     </task>
     <task id="LOCAL-00039" summary="creo la clase interfaz">
       <option name="closed" value="true" />
@@ -498,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710755956029</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="parece que no pero poco a poco va">
+      <option name="closed" value="true" />
+      <created>1710757099616</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1710757099617</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="creo la clase visualizacion" />
     <MESSAGE value="metodo para ver los datos" />
     <MESSAGE value="creo la clase integracion" />
     <MESSAGE value="metodo para permitir las nuevas investigaciones" />
@@ -541,6 +541,7 @@
     <MESSAGE value="xd no va el main" />
     <MESSAGE value="xd no va el main parte 8" />
     <MESSAGE value="esto cansado jefe" />
-    <option name="LAST_COMMIT_MESSAGE" value="esto cansado jefe" />
+    <MESSAGE value="parece que no pero poco a poco va" />
+    <option name="LAST_COMMIT_MESSAGE" value="parece que no pero poco a poco va" />
   </component>
 </project>

@@ -215,74 +215,123 @@ public class main {
 
 
 
-        public static void gestionUsuariosSimulacionesMenu() {
-            Scanner scanner = new Scanner(System.in);
-            boolean salir = false;
+    public static void gestionUsuariosSimulacionesMenu() {
+        Scanner scanner = new Scanner(System.in);
+        boolean salir = false;
+        boolean usuarioAutenticado = false; // Inicialmente el usuario no está autenticado
 
-            while (!salir) {
-                System.out.println("\n--- Gestión de Usuarios y Simulaciones ---");
-                System.out.println("1. Interfaz de Usuario");
-                System.out.println("2. Autenticación");
-                System.out.println("3. Registro de Actividades");
-                System.out.println("4. Volver al Menú Principal");
-                System.out.print("Seleccione una opción: ");
-                int opcion = scanner.nextInt();
-                scanner.nextLine(); // Consumir el salto de línea
+        while (!salir) {
+            System.out.println("\n--- Gestión de Usuarios y Simulaciones ---");
+            System.out.println("1. Interfaz de Usuario");
+            System.out.println("2. Autenticación");
+            System.out.println("3. Registro de Actividades");
+            System.out.println("4. Volver al Menú Principal");
+            System.out.print("Seleccione una opción: ");
+            int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir el salto de línea
 
-                switch (opcion) {
-                    case 1:
-                        boolean usuarioAutenticado = false;
-                        if (usuarioAutenticado) {
-                            interfazUsuario();
-                        } else {
-                            System.out.println("Error: Debe autenticarse primero para acceder a la interfaz de usuario.");
-                        }
-                        break;
-                    case 2:
-                        autenticacion();
-                        break;
-                    case 3:
-                        usuarioAutenticado = true;
-                        if (usuarioAutenticado) {
-                            registroActividades();
-                        } else {
-                            System.out.println("Error: Debe autenticarse primero para acceder al registro de actividades.");
-                        }
-                        break;
-                    case 4:
-                        salir = true;
-                        break;
-                    default:
-                        System.out.println("Opción no válida, intente de nuevo.");
-                        break;
-                }
+            switch (opcion) {
+                case 1:
+                    if (usuarioAutenticado) {
+                        interfazUsuario();
+                    } else {
+                        System.out.println("Error: Debe autenticarse primero para acceder a la interfaz de usuario.");
+                    }
+                    break;
+                case 2:
+                    usuarioAutenticado = autenticacion();
+                    if (usuarioAutenticado) {
+                        System.out.println("Autenticación exitosa. Ahora puede acceder a la interfaz de usuario.");
+                    } else {
+                        System.out.println("Error: La autenticación falló. Inténtelo nuevamente.");
+                    }
+                    break;
+                case 3:
+                    if (usuarioAutenticado) {
+                        registroActividades();
+                    } else {
+                        System.out.println("Error: Debe autenticarse primero para acceder al registro de actividades.");
+                    }
+                    break;
+                case 4:
+                    salir = true;
+                    break;
+                default:
+                    System.out.println("Opción no válida, intente de nuevo.");
+                    break;
             }
         }
+    }
+
+    private static void interfazUsuario () {
+        Scanner scanner = new Scanner(System.in);
+        boolean salir = false;
+
+        while (!salir) {
+            System.out.println("\n--- Interfaz de Usuario ---");
+            System.out.println("1. Configurar Simulación");
+            System.out.println("2. Iniciar Simulación");
+            System.out.println("3. Detener Simulación");
+            System.out.println("4. Salir");
+            System.out.print("Seleccione una opción: ");
+            int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir el salto de línea
+
+            switch (opcion) {
+                case 1:
+                    System.out.println("Configurando la simulación...");
+                    // Aquí puedes permitir que los investigadores configuren los parámetros de la simulación
+                    break;
+                case 2:
+                    System.out.println("Iniciando la simulación...");
+                    // Aquí puedes iniciar la simulación con los parámetros configurados previamente
+                    break;
+                case 3:
+                    System.out.println("Deteniendo la simulación...");
+                    // Aquí puedes detener la simulación en curso
+                    break;
+                case 4:
+                    salir = true;
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción no válida, intente de nuevo.");
+                    break;
+            }
+        }
+        scanner.close(); // Cerrar el Scanner al finalizar
+    }
+
+
 
     private static void registroActividades () {
         System.out.println("Mostrando registros de actividades...");
     }
 
-    private static void autenticacion () {
-        // Lógica para la autenticación
+    public static boolean autenticacion() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese su nombre de usuario: ");
+        System.out.println("Ingrese su nombre de usuario:");
         String usuario = scanner.nextLine();
-        System.out.print("Ingrese su contraseña: ");
+        System.out.println("Ingrese su contraseña:");
         String contrasena = scanner.nextLine();
 
-        // Suponiendo un usuario y contraseña fijos para este ejemplo
-        if (usuario.equals("admin") && contrasena.equals("admin123")) {
-          boolean  usuarioAutenticado = true;
-            System.out.println("Autenticación exitosa. Ahora puede acceder a la interfaz de usuario y al registro de actividades.");
+        // Usuario y contraseña predefinidos
+        String usuarioCorrecto = "vitaliy";
+        String contrasenaCorrecta = "mercadona";
+
+        // Verificar si el usuario y la contraseña ingresados coinciden con los predefinidos
+        if (usuario.equals(usuarioCorrecto) && contrasena.equals(contrasenaCorrecta)) {
+            System.out.println("¡Autenticación exitosa!");
+            return true;
         } else {
-            System.out.println("Error: Nombre de usuario o contraseña incorrectos.");
+            System.out.println("Usuario o contraseña incorrectos. Inténtelo de nuevo.");
+            return false;
         }
     }
 
-    private static void interfazUsuario () {
-        System.out.println("Bienvenido a la Interfaz de Usuario.");
-    }
+
+
+
 
     public static void analisisAvanzadoMenu() {
         Scanner scanner = new Scanner(System.in);

@@ -131,29 +131,32 @@ public class main {
 
 
     public static void simuladorPoblacionalMenu(Ambiente ambiente, Simulador simulador) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner ( System.in );
         boolean salir = false;
 
         while (!salir) {
-            System.out.println("\n--- Simulador de Dinámicas Poblacionales ---");
-            System.out.println("1. Simular Crecimiento y Reproducción");
-            System.out.println("2. Simular Eventos Aleatorios");
-            System.out.println("3. Ver Resultados de la Simulación");
-            System.out.println("4. Volver al Menú Principal");
-            System.out.print("Seleccione una opción: ");
-            int opcion = scanner.nextInt();
-            scanner.nextLine(); // Consumir el salto de línea
+            System.out.println ( "\n--- Simulador de Dinámicas Poblacionales ---" );
+            System.out.println ( "1. Simular Crecimiento y Reproducción" );
+            System.out.println ( "2. Simular Eventos Aleatorios" );
+            System.out.println ( "3. Ver Resultados de la Simulación" );
+            System.out.println ( "4. Volver al Menú Principal" );
+            System.out.print ( "Seleccione una opción: " );
+            int opcion = scanner.nextInt ();
+            scanner.nextLine (); // Consumir el salto de línea
 
             switch (opcion) {
                 case 1:
+                    simularCrecimientoYReproduccion ( ambiente, simulador );
                     // Lógica para simular el crecimiento y reproducción
 
                     break;
                 case 2:
+                    simularEventosAleatorios ( ambiente, simulador );
                     // Lógica para simular eventos aleatorios
 
                     break;
                 case 3:
+                    verResultadosSimulacion ( ambiente, simulador );
                     // Lógica para ver resultados de la simulación
 
                     break;
@@ -161,11 +164,48 @@ public class main {
                     salir = true;
                     break;
                 default:
-                    System.out.println("Opción no válida, intente de nuevo.");
+                    System.out.println ( "Opción no válida, intente de nuevo." );
                     break;
             }
         }
+
     }
+        public static void simularCrecimientoYReproduccion(Ambiente ambiente, Simulador simulador) {
+            // Lógica para simular el crecimiento y reproducción
+            simulador.simularCrecimientoYReproduccion(ambiente);
+            System.out.println("Simulación de crecimiento y reproducción realizada.");
+        }
+
+        public static void simularEventosAleatorios(Ambiente ambiente, Simulador simulador) {
+            // Lógica para simular eventos aleatorios
+            simulador.simularEventosAleatorios(ambiente);
+            System.out.println("Simulación de eventos aleatorios realizada.");
+        }
+
+        public static void verResultadosSimulacion(Ambiente ambiente, Simulador simulador) {
+            // Lógica para ver resultados de la simulación
+            simulador.verResultadosSimulacion(ambiente);
+            System.out.println("Resultados de la simulación:");
+            // Imprimir resultados, dependiendo de cómo estén implementados en la clase Resultados
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     public static void gestionUsuariosSimulacionesMenu() {
         Scanner scanner = new Scanner(System.in);

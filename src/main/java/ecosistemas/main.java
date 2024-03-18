@@ -69,6 +69,7 @@ public class main {
                     break;
                 case 2:
                     // Lógica para crear un nuevo animal
+                    crearNuevoAnimal(scanner);
                     break;
                 case 3:
                     salir = true;
@@ -97,6 +98,26 @@ public class main {
     // Aquí puedes hacer algo con la nueva planta, como agregarla a una lista de plantas en tu vivero, etc.
         System.out.println("¡Planta creada exitosamente!");
 }
+    public static void crearNuevoAnimal(Scanner scanner) {
+        System.out.println("Ingrese el nombre del animal:");
+        String nombre = scanner.next();
+
+        System.out.println("Ingrese la especie del animal:");
+        String especie = scanner.next();
+
+        System.out.println("Ingrese la edad del animal:");
+        int edad = scanner.nextInt();
+
+        // Aquí puedes agregar más atributos según tu clase Animal
+
+        // Crear una nueva instancia de Animal con los datos proporcionados
+        Animal nuevoAnimal = new Animal(nombre, especie, edad);
+
+        // Aquí puedes hacer algo con el nuevo animal, como agregarlo a una lista de animales en tu zoológico, etc.
+        System.out.println("¡Animal creado exitosamente!");
+    }
+
+
 
     public static void simuladorPoblacionalMenu(Ambiente ambiente, Simulador simulador) {
         Scanner scanner = new Scanner(System.in);
@@ -214,6 +235,20 @@ class Planta {
         this.nombre = nombre;
         this.tipo = tipo;
         this.altura = altura;
+    }
+
+    // Getters y setters (si es necesario)
+}
+ class Animal {
+    private String nombre;
+    private String especie;
+    private int edad;
+
+    // Constructor
+    public Animal(String nombre, String especie, int edad) {
+        this.nombre = nombre;
+        this.especie = especie;
+        this.edad = edad;
     }
 
     // Getters y setters (si es necesario)

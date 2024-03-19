@@ -27,9 +27,8 @@ public class main {
             System.out.println ( "4. Análisis Avanzado" );
             System.out.println ( "5. Salir" );
             System.out.print ( "Seleccione una opción: " );
-            int opcion = scanner.nextInt ();
             scanner.nextLine (); // Consumir el salto de línea
-
+            int opcion = scanner.nextInt();
             switch (opcion) {
                 case 1:
                     modeladoEntidadesMenu ( ambiente );
@@ -54,39 +53,41 @@ public class main {
         }
     }
 
-    private static void analisisAvanzadoMenu () {
+    private static void analisisAvanzadoMenu() {
+        boolean salir = false;
         Scanner scanner = new Scanner(System.in);
-        int opcion;
 
-        do {
+        while (!salir){
+            System.out.println("\nMenú:");
             System.out.println("1. Ejecutar simulación");
             System.out.println("2. Visualizar resultados");
             System.out.println("3. Integrar nuevas funciones");
-            System.out.println("4. Salir");
+            System.out.println("4. Volver al menú principal");
             System.out.print("Ingrese una opción: ");
-            opcion = scanner.nextInt();
+            int opcion = scanner.nextInt();
 
             switch (opcion) {
                 case 1:
-                    ejecutarSimulacion();
+                    ejecutarSimulacion(scanner);
                     break;
                 case 2:
-                    visualizarResultados();
+                    visualizarResultados(scanner);
                     break;
                 case 3:
-                    integrarNuevasFunciones();
+                    integrarNuevasFunciones(scanner);
                     break;
                 case 4:
+                    salir = true;
                     System.out.println("Saliendo del programa.");
                     break;
                 default:
                     System.out.println("Opción inválida. Por favor, ingrese una opción válida.");
             }
-
-        } while (opcion != 4);
+        }
 
         scanner.close();
     }
+
 
 
 
@@ -368,55 +369,79 @@ public class main {
     public class SimuladorEcologico {
 
         // Método para ejecutar la simulación
-        public static void ejecutarSimulacion () {
-            System.out.println ( "Simulación ejecutada." );
+        public static void ejecutarSimulacion(Scanner scanner) {
+            System.out.println("Ejecutando simulación...");
+
+            // Solicitar al usuario datos de entrada específicos para la simulación
+            System.out.print("Ingrese el número de especies en la simulación: ");
+            int numEspecies = scanner.nextInt();
+
+            // Consumir la nueva línea pendiente después de leer el número de especies
+            scanner.nextLine();
+
+            // Arrays para almacenar las características de cada especie
+            double[] tasasReproduccion = new double[numEspecies];
+            double[] tasasMortalidad = new double[numEspecies];
+
+            // Solicitar al usuario las características de cada especie
+            for (int i = 0; i < numEspecies; i++) {
+                System.out.println("Especie " + (i + 1) + ":");
+                System.out.print("  Tasa de reproducción: ");
+                tasasReproduccion[i] = scanner.nextDouble();
+                System.out.print("  Tasa de mortalidad: ");
+                tasasMortalidad[i] = scanner.nextDouble();
+            }
+
+            // Aquí podrías solicitar más datos de entrada según lo necesites para tu simulación
+
+            // Lógica de simulación utilizando los datos de entrada proporcionados por el usuario
+            // En este ejemplo, simplemente imprimimos las tasas de reproducción y mortalidad de cada especie
+            System.out.println("\nTasas de reproducción y mortalidad de las especies:");
+            for (int i = 0; i < numEspecies; i++) {
+                System.out.println("Especie " + (i + 1) + ":");
+                System.out.println("  Tasa de reproducción: " + tasasReproduccion[i]);
+                System.out.println("  Tasa de mortalidad: " + tasasMortalidad[i]);
+            }
+
+            // Regresar al menú principal
+            System.out.println("\nPresione Enter para volver al menú principal.");
+            scanner.nextLine(); // Esperar a que el usuario presione Enter
         }
 
+
         // Método para visualizar los resultados de la simulación
-        public static void visualizarResultados () {
-            System.out.println ( "Resultados visualizados." );
+        public static void visualizarResultados ( Scanner scanner ) {
+
         }
 
         // Método para permitir la integración de nuevas funciones
-        public static void integrarNuevasFunciones () {
-            System.out.println ( "Nuevas funciones integradas." );
-        }
+        public static void integrarNuevasFunciones ( Scanner scanner ) {
+            System.out.println ( "Integrando nuevas funciones..." );
 
-        // Método principal para ejecutar el programa
-        public static void main ( String[] args ) {
-            Scanner scanner = new Scanner ( System.in );
-            int opcion;
+            // Ejemplo de cómo podrías permitir al usuario definir nuevas reglas de interacción entre especies
+            System.out.println ( "¿Desea definir nuevas reglas de interacción entre especies? (s/n)" );
+            String respuesta = scanner.next ();
+            if (respuesta.equalsIgnoreCase ( "s" )) {
+                System.out.println ( "Ingrese la nueva regla de interacción entre especies:" );
+                String nuevaRegla = scanner.next ();
+                System.out.println ( "Nueva regla integrada: " + nuevaRegla );
+            }
 
-            do {
-                System.out.println ( "1. Ejecutar simulación" );
-                System.out.println ( "2. Visualizar resultados" );
-                System.out.println ( "3. Integrar nuevas funciones" );
-                System.out.println ( "4. Salir" );
-                System.out.print ( "Ingrese una opción: " );
-                opcion = scanner.nextInt ();
+            // Ejemplo de cómo podrías permitir al usuario configurar parámetros personalizados
+            System.out.println ( "¿Desea configurar parámetros personalizados para la simulación? (s/n)" );
+            respuesta = scanner.next ();
+            if (respuesta.equalsIgnoreCase ( "s" )) {
+                System.out.println ( "Ingrese el nombre del parámetro:" );
+                String nombreParametro = scanner.next ();
+                System.out.println ( "Ingrese el valor del parámetro:" );
+                double valorParametro = scanner.nextDouble ();
+                System.out.println ( "Parámetro configurado: " + nombreParametro + " = " + valorParametro );
+            }
 
-                switch (opcion) {
-                    case 1:
-                        ejecutarSimulacion ();
-                        break;
-                    case 2:
-                        visualizarResultados ();
-                        break;
-                    case 3:
-                        integrarNuevasFunciones ();
-                        break;
-                    case 4:
-                        System.out.println ( "Saliendo del programa." );
-                        break;
-                    default:
-                        System.out.println ( "Opción inválida. Por favor, ingrese una opción válida." );
-                }
-
-            } while (opcion != 4);
-
-            scanner.close ();
         }
     }
+
+        // Método principal para ejecutar el programa
 
 
     static class Planta {
@@ -535,6 +560,6 @@ public class main {
             this.color = color;
         }
     }
-    }
+        }
 
 

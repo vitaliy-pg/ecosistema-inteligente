@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="ya tengo hecho el registro">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="integrandi nuevas funciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
     </list>
@@ -106,15 +106,8 @@
       <workItem from="1710675415469" duration="27226000" />
       <workItem from="1710765239006" duration="6087000" />
       <workItem from="1710796419715" duration="454000" />
-      <workItem from="1710834801422" duration="1871000" />
-    </task>
-    <task id="LOCAL-00042" summary="metodo para iniciar una nueva simulacion">
-      <option name="closed" value="true" />
-      <created>1710679412720</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679412720</updated>
+      <workItem from="1710834801422" duration="5460000" />
+      <workItem from="1710868004658" duration="493000" />
     </task>
     <task id="LOCAL-00043" summary="metodo para iniciar una simulacion anterior">
       <option name="closed" value="true" />
@@ -500,7 +493,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710770601080</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="integrandi nuevas funciones">
+      <option name="closed" value="true" />
+      <created>1710836943641</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1710836943642</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para permitir nuevas funciones" />
     <MESSAGE value="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo" />
     <MESSAGE value="me da muchos errores esat version del main asique voy a probar con otra" />
     <MESSAGE value="me da muchos errores esta version del main asique voy a probar con otra nueva mas" />
@@ -543,6 +543,7 @@
     <MESSAGE value="nuevas cosas añadidas" />
     <MESSAGE value="arreglando cosas" />
     <MESSAGE value="ya tengo hecho el registro" />
-    <option name="LAST_COMMIT_MESSAGE" value="ya tengo hecho el registro" />
+    <MESSAGE value="integrandi nuevas funciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrandi nuevas funciones" />
   </component>
 </project>

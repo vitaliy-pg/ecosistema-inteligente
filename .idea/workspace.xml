@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="probando cositas">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="probando a ver si ya funciona el registro de resultados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -53,6 +57,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,15 +113,7 @@
       <workItem from="1710796419715" duration="454000" />
       <workItem from="1710834801422" duration="5460000" />
       <workItem from="1710868004658" duration="2376000" />
-      <workItem from="1710870399332" duration="1774000" />
-    </task>
-    <task id="LOCAL-00045" summary="metodo para crear una nueva simulacion">
-      <option name="closed" value="true" />
-      <created>1710679517442</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679517442</updated>
+      <workItem from="1710870399332" duration="2869000" />
     </task>
     <task id="LOCAL-00046" summary="metodo para obtener una simulacion registrada">
       <option name="closed" value="true" />
@@ -502,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710870575633</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="probando a ver si ya funciona el registro de resultados">
+      <option name="closed" value="true" />
+      <created>1710872419144</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1710872419144</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="me da muchos errores esta version del main asique voy a probar con otra nueva mas" />
     <MESSAGE value="intentado solucionar problemas" />
     <MESSAGE value="intentado solucionar problemas parte 2 xd" />
     <MESSAGE value="parece que esta version del main me sale correcta" />
@@ -545,6 +549,11 @@
     <MESSAGE value="integrandi nuevas funciones" />
     <MESSAGE value="wiwiwiwwiwiwiwi" />
     <MESSAGE value="probando cositas" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando cositas" />
+    <MESSAGE value="probando a ver si ya funciona el registro de resultados" />
+    <option name="LAST_COMMIT_MESSAGE" value="probando a ver si ya funciona el registro de resultados" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

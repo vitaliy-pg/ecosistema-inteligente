@@ -4,8 +4,13 @@ import ecosistemas.analisis.ResolucionProblemas;
 import ecosistemas.gestion.InterfazUsuario;
 import ecosistemas.simulador.Ambiente;
 import ecosistemas.simulador.Simulador;
-
+import javax.swing.*;
+import java.awt.*;
 import java.util.Scanner;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.data.category.DefaultCategoryDataset;
 
 import java.util.Random;
 
@@ -126,7 +131,32 @@ public class main {
     public static void visualizarResultados(Scanner scanner, double[] tasasReproduccion, double[] tasasMortalidad) {
         System.out.println("Visualizando resultados de la simulación:");
 
-        // Mostrar las tasas de reproducción y mortalidad de cada especie
+        // Crear un conjunto de datos para el gráfico
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        for (int i = 0; i < tasasReproduccion.length; i++) {
+            dataset.addValue(tasasReproduccion[i], "Tasa de reproducción", "Especie " + (i + 1));
+            dataset.addValue(tasasMortalidad[i], "Tasa de mortalidad", "Especie " + (i + 1));
+        }
+
+        // Crear el gráfico
+        JFreeChart chart = ChartFactory.createBarChart(
+                "Tasas de reproducción y mortalidad por especie",
+                "Especies",
+                "Tasa",
+                dataset
+        );
+
+        // Mostrar el gráfico en un panel
+        JFrame frame = new JFrame("Resultados de la simulación");
+        frame.setLayout(new BorderLayout());
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        ChartPanel chartPanel = new ChartPanel(chart);
+        frame.add(chartPanel, BorderLayout.CENTER);
+        frame.setSize(800, 600);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+
+        // Mostrar también las tasas de reproducción y mortalidad en la consola
         System.out.println("\nTasas de reproducción y mortalidad de las especies:");
         for (int i = 0; i < tasasReproduccion.length; i++) {
             System.out.println("Especie " + (i + 1) + ":");

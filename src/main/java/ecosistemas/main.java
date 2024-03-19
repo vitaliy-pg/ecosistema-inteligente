@@ -42,7 +42,7 @@ public class main {
                     gestionUsuariosSimulacionesMenu ();
                     break;
                 case 4:
-                    analisisAvanzadoMenu ();
+                    analisisAvanzadoMenu (  scanner );
                     break;
                 case 5:
                     salir = true;
@@ -55,40 +55,75 @@ public class main {
         }
     }
 
-    public static void analisisAvanzadoMenu() {
+    private static void analisisAvanzadoMenu(Scanner scanner) {
         boolean salir = false;
-        Scanner scanner = new Scanner(System.in);
 
         while (!salir) {
             System.out.println("\nMenú:");
             System.out.println("1. Ejecutar simulación");
             System.out.println("2. Visualizar resultados");
             System.out.println("3. Integrar nuevas funciones");
-            System.out.println("4. Volver al menú principal");
+            System.out.println("4. Salir");
             System.out.print("Ingrese una opción: ");
             int opcion = scanner.nextInt();
+            scanner.nextLine(); // Consumir la nueva línea después de leer la opción
 
             switch (opcion) {
                 case 1:
                     ejecutarSimulacion(scanner);
                     break;
                 case 2:
-                    visualizarResultados(scanner, new double[0], new double[0]);
+                    // Verificar si se han ejecutado previamente la simulación
+                    if (tasasReproduccion != null && tasasMortalidad != null) {
+                        visualizarResultados(scanner, tasasReproduccion, tasasMortalidad);
+                    } else {
+                        System.out.println("Primero debes ejecutar la simulación.");
+                    }
                     break;
                 case 3:
                     integrarNuevasFunciones(scanner);
                     break;
                 case 4:
                     salir = true;
-                    System.out.println("Volviendo al menú principal.");
+                    System.out.println("Saliendo del programa.");
                     break;
                 default:
                     System.out.println("Opción inválida. Por favor, ingrese una opción válida.");
             }
         }
+        scanner.close();
     }
 
-public  static void visualizarResultados (Scanner scanner, double[] tasasReproduccion, double[] tasasMortalidad) {
+    private static double[] tasasReproduccion;
+    private static double[] tasasMortalidad;
+
+    public static void ejecutarSimulacion(Scanner scanner) {
+        System.out.println("Ejecutando simulación...");
+
+        // Solicitar al usuario datos de entrada específicos para la simulación
+        System.out.print("Ingrese el número de especies en la simulación: ");
+        int numEspecies = scanner.nextInt();
+        scanner.nextLine(); // Consumir la nueva línea después de leer el número de especies
+
+        // Inicializar los arrays para almacenar las tasas de reproducción y mortalidad
+        tasasReproduccion = new double[numEspecies];
+        tasasMortalidad = new double[numEspecies];
+
+        // Solicitar al usuario las características de cada especie
+        for (int i = 0; i < numEspecies; i++) {
+            System.out.println("Especie " + (i + 1) + ":");
+            System.out.print("  Tasa de reproducción: ");
+            tasasReproduccion[i] = scanner.nextDouble();
+            scanner.nextLine(); // Consumir la nueva línea después de leer la tasa de reproducción
+            System.out.print("  Tasa de mortalidad: ");
+            tasasMortalidad[i] = scanner.nextDouble();
+            scanner.nextLine(); // Consumir la nueva línea después de leer la tasa de mortalidad
+        }
+
+        System.out.println("Simulación ejecutada correctamente.");
+    }
+
+    public static void visualizarResultados(Scanner scanner, double[] tasasReproduccion, double[] tasasMortalidad) {
         System.out.println("Visualizando resultados de la simulación:");
 
         // Mostrar las tasas de reproducción y mortalidad de cada especie
@@ -99,14 +134,34 @@ public  static void visualizarResultados (Scanner scanner, double[] tasasReprodu
             System.out.println("  Tasa de mortalidad: " + tasasMortalidad[i]);
         }
 
-        // Aquí puedes agregar más lógica para mostrar otros resultados de la simulación
-        // según sea necesario
-
         // Regresar al menú principal
         System.out.println("\nPresione Enter para volver al menú principal.");
         scanner.nextLine(); // Esperar a que el usuario presione Enter
     }
+    public static void integrarNuevasFunciones ( Scanner scanner ) {
+        System.out.println ( "Integrando nuevas funciones..." );
 
+        // Ejemplo de cómo podrías permitir al usuario definir nuevas reglas de interacción entre especies
+        System.out.println ( "¿Desea definir nuevas reglas de interacción entre especies? (s/n)" );
+        String respuesta = scanner.next ();
+        if (respuesta.equalsIgnoreCase ( "s" )) {
+            System.out.println ( "Ingrese la nueva regla de interacción entre especies:" );
+            String nuevaRegla = scanner.next ();
+            System.out.println ( "Nueva regla integrada: " + nuevaRegla );
+        }
+
+        // Ejemplo de cómo podrías permitir al usuario configurar parámetros personalizados
+        System.out.println ( "¿Desea configurar parámetros personalizados para la simulación? (s/n)" );
+        respuesta = scanner.next ();
+        if (respuesta.equalsIgnoreCase ( "s" )) {
+            System.out.println ( "Ingrese el nombre del parámetro:" );
+            String nombreParametro = scanner.next ();
+            System.out.println ( "Ingrese el valor del parámetro:" );
+            double valorParametro = scanner.nextDouble ();
+            System.out.println ( "Parámetro configurado: " + nombreParametro + " = " + valorParametro );
+        }
+
+    }
 
 
 
@@ -389,7 +444,8 @@ public  static void visualizarResultados (Scanner scanner, double[] tasasReprodu
 
 
     public class SimuladorEcologico {
-
+        public static double[] tasasReproduccion;
+        private static double[] tasasMortalidad;
         // Método para ejecutar la simulación
         public static void ejecutarSimulacion(Scanner scanner) {
             System.out.println("Ejecutando simulación...");
@@ -397,9 +453,7 @@ public  static void visualizarResultados (Scanner scanner, double[] tasasReprodu
             // Solicitar al usuario datos de entrada específicos para la simulación
             System.out.print("Ingrese el número de especies en la simulación: ");
             int numEspecies = scanner.nextInt();
-
-            // Consumir el carácter de nueva línea pendiente
-            scanner.nextLine();
+            scanner.nextLine(); // Consumir el carácter de nueva línea pendiente
 
             // Arrays para almacenar las características de cada especie
             double[] tasasReproduccion = new double[numEspecies];
@@ -410,25 +464,14 @@ public  static void visualizarResultados (Scanner scanner, double[] tasasReprodu
                 System.out.println("Especie " + (i + 1) + ":");
                 System.out.print("  Tasa de reproducción: ");
                 tasasReproduccion[i] = scanner.nextDouble();
+                scanner.nextLine(); // Consumir el carácter de nueva línea pendiente
                 System.out.print("  Tasa de mortalidad: ");
                 tasasMortalidad[i] = scanner.nextDouble();
-
-                // Consumir el carácter de nueva línea pendiente
-                scanner.nextLine();
+                scanner.nextLine(); // Consumir el carácter de nueva línea pendiente
             }
 
-            // Lógica de simulación utilizando los datos de entrada proporcionados por el usuario
-            // En este ejemplo, simplemente imprimimos las tasas de reproducción y mortalidad de cada especie
-            System.out.println("\nTasas de reproducción y mortalidad de las especies:");
-            for (int i = 0; i < numEspecies; i++) {
-                System.out.println("Especie " + (i + 1) + ":");
-                System.out.println("  Tasa de reproducción: " + tasasReproduccion[i]);
-                System.out.println("  Tasa de mortalidad: " + tasasMortalidad[i]);
-            }
-
-            // Regresar al menú principal
-            System.out.println("\nPresione Enter para volver al menú principal.");
-            scanner.nextLine(); // Esperar a que el usuario presione Enter
+            // Mostrar los resultados de la simulación
+            visualizarResultados(scanner, tasasReproduccion, tasasMortalidad);
         }
 
 
@@ -538,6 +581,8 @@ public  static void visualizarResultados (Scanner scanner, double[] tasasReprodu
             this.estadoReproduccion = estadoReproduccion;
         }
     }
+
+
 
 
     static class Animal {

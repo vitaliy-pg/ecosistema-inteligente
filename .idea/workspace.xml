@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="wiwiwiwwiwiwiwi">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="probando cositas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
     </list>
@@ -108,14 +108,7 @@
       <workItem from="1710796419715" duration="454000" />
       <workItem from="1710834801422" duration="5460000" />
       <workItem from="1710868004658" duration="2376000" />
-    </task>
-    <task id="LOCAL-00044" summary="creo la clase registro de actividades que se me habia olvidado">
-      <option name="closed" value="true" />
-      <created>1710679485408</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679485408</updated>
+      <workItem from="1710870399332" duration="1774000" />
     </task>
     <task id="LOCAL-00045" summary="metodo para crear una nueva simulacion">
       <option name="closed" value="true" />
@@ -501,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710868821145</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="probando cositas">
+      <option name="closed" value="true" />
+      <created>1710870575633</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1710870575633</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="me da muchos errores esat version del main asique voy a probar con otra" />
     <MESSAGE value="me da muchos errores esta version del main asique voy a probar con otra nueva mas" />
     <MESSAGE value="intentado solucionar problemas" />
     <MESSAGE value="intentado solucionar problemas parte 2 xd" />
@@ -544,6 +544,7 @@
     <MESSAGE value="ya tengo hecho el registro" />
     <MESSAGE value="integrandi nuevas funciones" />
     <MESSAGE value="wiwiwiwwiwiwiwi" />
-    <option name="LAST_COMMIT_MESSAGE" value="wiwiwiwwiwiwiwi" />
+    <MESSAGE value="probando cositas" />
+    <option name="LAST_COMMIT_MESSAGE" value="probando cositas" />
   </component>
 </project>

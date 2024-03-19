@@ -68,7 +68,8 @@ public class main {
             System.out.println("1. Ejecutar simulación");
             System.out.println("2. Visualizar resultados");
             System.out.println("3. Integrar nuevas funciones");
-            System.out.println("4. Salir");
+            System.out.println("4. Resolucion problemas");
+            System.out.println("5. Salir");
             System.out.print("Ingrese una opción: ");
             int opcion = scanner.nextInt();
             scanner.nextLine(); // Consumir la nueva línea después de leer la opción
@@ -89,6 +90,9 @@ public class main {
                     integrarNuevasFunciones(scanner);
                     break;
                 case 4:
+                    new ResolucionProblemas (scanner);
+                    break;
+                case 5:
                     salir = true;
                     System.out.println("Saliendo del programa.");
                     break;
@@ -97,6 +101,63 @@ public class main {
             }
         }
         scanner.close();
+    }
+
+    public static class ResolucionProblemas {
+        public ResolucionProblemas ( Scanner scanner ) {
+            System.out.println ( "\n--- Resolución de Problemas ---" );
+            System.out.println ( "1. Buscar equilibrio ecológico" );
+            System.out.println ( "2. Evaluar estrategias de conservación" );
+            System.out.println ( "3. Calcular impacto de la actividad humana" );
+            System.out.println ( "4. Analizar resiliencia del ecosistema" );
+            System.out.println ( "5. Otros métodos de resolución de problemas" );
+            System.out.print ( "Seleccione una opción: " );
+            int opcion = scanner.nextInt ();
+            scanner.nextLine (); // Consumir el salto de línea
+
+            switch (opcion) {
+                case 1:
+                    buscarEquilibrioEcologico ();
+                    break;
+                case 2:
+                    evaluarEstrategiasConservacion ();
+                    break;
+                case 3:
+                    calcularImpactoHumanidad ();
+                    break;
+                case 4:
+                    analizarResilienciaEcosistema ();
+                    break;
+                case 5:
+                    // Otros métodos de resolución de problemas
+                    break;
+                default:
+                    System.out.println ( "Opción no válida, intente de nuevo." );
+                    break;
+            }
+        }
+
+        public void buscarEquilibrioEcologico() {
+            // Implementación para buscar equilibrios ecológicos
+            // Por ejemplo, calcular la diversidad de especies y evaluar la estabilidad del ecosistema
+        }
+
+        public void evaluarEstrategiasConservacion() {
+            // Implementación para evaluar estrategias de conservación
+            // Por ejemplo, analizar el impacto de medidas de protección de especies en peligro
+        }
+
+        public void calcularImpactoHumanidad() {
+            // Implementación para calcular el impacto de la actividad humana en el ecosistema
+            // Por ejemplo, evaluar el efecto de la deforestación o la contaminación en la biodiversidad
+        }
+
+        public void analizarResilienciaEcosistema() {
+            // Implementación para analizar la resiliencia del ecosistema ante perturbaciones
+            // Por ejemplo, estudiar cómo se recupera el ecosistema después de un incendio forestal
+        }
+
+        // Otros métodos de resolución de problemas
     }
 
     private static double[] tasasReproduccion;

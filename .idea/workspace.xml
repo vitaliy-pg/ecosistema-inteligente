@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="probando a ver si ya funciona el registro de resultados">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="si esto ha funcionado me corono">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +112,7 @@
       <workItem from="1710796419715" duration="454000" />
       <workItem from="1710834801422" duration="5460000" />
       <workItem from="1710868004658" duration="2376000" />
-      <workItem from="1710870399332" duration="2869000" />
-    </task>
-    <task id="LOCAL-00046" summary="metodo para obtener una simulacion registrada">
-      <option name="closed" value="true" />
-      <created>1710679546992</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679546993</updated>
+      <workItem from="1710870399332" duration="3823000" />
     </task>
     <task id="LOCAL-00047" summary="importo utlidades de jeva">
       <option name="closed" value="true" />
@@ -507,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710872419144</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="si esto ha funcionado me corono">
+      <option name="closed" value="true" />
+      <created>1710873486526</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1710873486526</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intentado solucionar problemas" />
     <MESSAGE value="intentado solucionar problemas parte 2 xd" />
     <MESSAGE value="parece que esta version del main me sale correcta" />
     <MESSAGE value="parece que demomento funciona todo" />
@@ -550,7 +548,8 @@
     <MESSAGE value="wiwiwiwwiwiwiwi" />
     <MESSAGE value="probando cositas" />
     <MESSAGE value="probando a ver si ya funciona el registro de resultados" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando a ver si ya funciona el registro de resultados" />
+    <MESSAGE value="si esto ha funcionado me corono" />
+    <option name="LAST_COMMIT_MESSAGE" value="si esto ha funcionado me corono" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="arreglando cosas">
+    <list default="true" id="61531da9-9322-4a81-9667-7ab4293d70e7" name="Changes" comment="ya tengo hecho el registro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/InterfazUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/InterfazUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/RegistroActividades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/gestion/RegistroActividades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ecosistemas/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainAnalisis.executor": "Run",
-    "Application.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAnalisis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ecosistemas" />
@@ -106,15 +104,9 @@
       <option name="presentableId" value="Default" />
       <updated>1710675414134</updated>
       <workItem from="1710675415469" duration="27226000" />
-      <workItem from="1710765239006" duration="5273000" />
-    </task>
-    <task id="LOCAL-00041" summary="metodo para verificar usuarios">
-      <option name="closed" value="true" />
-      <created>1710679369946</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1710679369946</updated>
+      <workItem from="1710765239006" duration="6087000" />
+      <workItem from="1710796419715" duration="454000" />
+      <workItem from="1710834801422" duration="1871000" />
     </task>
     <task id="LOCAL-00042" summary="metodo para iniciar una nueva simulacion">
       <option name="closed" value="true" />
@@ -500,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710769025085</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="ya tengo hecho el registro">
+      <option name="closed" value="true" />
+      <created>1710770601080</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1710770601080</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="metodo para permitir las nuevas investigaciones" />
     <MESSAGE value="metodo para permitir nuevas funciones" />
     <MESSAGE value="me dispongo hacer el main pero antes voy a ver qeu todo lo demas este correcto y a ver si puedo mejorar el codigo" />
     <MESSAGE value="me da muchos errores esat version del main asique voy a probar con otra" />
@@ -543,6 +542,7 @@
     <MESSAGE value="parece que no pero poco a poco va" />
     <MESSAGE value="nuevas cosas añadidas" />
     <MESSAGE value="arreglando cosas" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglando cosas" />
+    <MESSAGE value="ya tengo hecho el registro" />
+    <option name="LAST_COMMIT_MESSAGE" value="ya tengo hecho el registro" />
   </component>
 </project>
